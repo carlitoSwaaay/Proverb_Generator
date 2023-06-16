@@ -115,10 +115,90 @@ const PROVERBS = [
   },
   {
     id: 29,
-    proverb: ""
+    proverb: "Do not accuse anyone for no reason— when they have done you no harm."
   },
   {
     id: 30,
+    proverb: "Do not envy the violent or choose any of their ways. For the Lord detests the perverse but takes the upright into his confidence."
+  },
+  {
+    id: 31,
+    proverb: "The Lord's curse is on the house of the wicked, but he blesses the home of the righteous. He mocks proud mockers but shows favor to the humble and oppressed."
+  },
+  {
+    id: 32,
+    proverb: "The wise inherit honor, but fools get only shame."
+  },
+  {
+    id: 33,
+    proverb: ""
+  },
+  {
+    id: 34,
+    proverb: ""
+  },
+  {
+    id: 35,
+    proverb: ""
+  },
+  {
+    id: 36,
+    proverb: ""
+  },
+  {
+    id: 37,
+    proverb: ""
+  },
+  {
+    id: 38,
+    proverb: ""
+  },
+  {
+    id: 39,
+    proverb: ""
+  },
+  {
+    id: 40,
+    proverb: ""
+  },
+  {
+    id: 41,
+    proverb: ""
+  },
+  {
+    id: 42,
+    proverb: ""
+  },
+  {
+    id: 43,
+    proverb: ""
+  },
+  {
+    id: 44,
+    proverb: ""
+  },
+  {
+    id: 45,
+    proverb: ""
+  },
+  {
+    id: 46,
+    proverb: ""
+  },
+  {
+    id: 47,
+    proverb: ""
+  },
+  {
+    id: 48,
+    proverb: ""
+  },
+  {
+    id: 49,
+    proverb: ""
+  },
+  {
+    id: 50,
     proverb: ""
   },
 ];
