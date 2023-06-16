@@ -167,31 +167,31 @@ const PROVERBS = [
   },
   {
     id: 42,
-    proverb: ""
+    proverb: "My son, pay attention to what I say; turn your ear to my words. Do not let them out of your sight, keep them within your heart; for they are life to those who find them and health to one's whole body."
   },
   {
     id: 43,
-    proverb: ""
+    proverb: "Above all else, guard your heart, for everything you do flows from it."
   },
   {
     id: 44,
-    proverb: ""
+    proverb: "Keep your mouth free of perversity; keep corrupt talk far from your lips."
   },
   {
     id: 45,
-    proverb: ""
+    proverb: "Let your eyes look straight ahead; fix your gaze directly before you."
   },
   {
     id: 46,
-    proverb: ""
+    proverb: "Give careful thought to the paths for your feet and be steadfast in all your ways. Do not turn to the right or the left; keep your foot from evil."
   },
   {
     id: 47,
-    proverb: ""
+    proverb: "My son, pay attention to my wisdom, turn your ear to my words of insight, that you may maintain discretion and your lips may preserve knowledge."
   },
   {
     id: 48,
-    proverb: ""
+    proverb: "For the lips of the adulterous woman drip honey, and her speech is smoother than oil; but in the end she is bitter as gall, sharp as a double- edged sword. Her feet go down to death; her steps lead straight to the grave. She gives no thought to the way of life; her paths wander aimlessly, but she does not know it."
   },
   {
     id: 49,
