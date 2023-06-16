@@ -99,19 +99,19 @@ const PROVERBS = [
   },
   {
     id: 25,
-    proverb: ""
+    proverb: "By wisdom the Lord laid the earth's foundations, by understanding he set the heavens in place; by his knowledge the watery depths were divided, and the clouds let drop the dew."
   },
   {
     id: 26,
-    proverb: ""
+    proverb: "My son, do not let wisdom and understanding out of your sight, preserve sound judgment and discretion; they will be life for you, an ornament to grace your neck. Then you will go on your way in safety, and your foot will not stumble. When you lie down, you will not be afraid; when you lie down, your sleep will be sweet. Have no fear of sudden disaster or of the ruin that overtakes the wicked, for the Lord will be at your side and will keep your foot from being snared."
   },
   {
     id: 27,
-    proverb: ""
+    proverb: "Do not withhold good from those to whom it is due, when it is in your power to act. Do not say to your neighbor, “Come back tomorrow and I'll give it to you”— when you already have it with you."
   },
   {
     id: 28,
-    proverb: ""
+    proverb: "Do not plot harm against your neighbor, who lives trustfully near you."
   },
   {
     id: 29,
