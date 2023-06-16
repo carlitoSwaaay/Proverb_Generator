@@ -3,15 +3,15 @@
 const PROVERBS = [
   {
     id: 1,
-    proverb: "`let the wise listen and add to their learning, and let the discerning get guidance—for understanding proverbs and parables, the sayings and riddles of the wise.`"
+    proverb: "let the wise listen and add to their learning, and let the discerning get guidance—for understanding proverbs and parables, the sayings and riddles of the wise."
   },
   {
     id: 2,
-    proverb: "`The fear of the Lord is the beginning of knowledge, but fools despise wisdom and instruction.`"
+    proverb: "The fear of the Lord is the beginning of knowledge, but fools despise wisdom and instruction."
   },
   {
     id: 3,
-    proverb: "`let the wise listen and add to their learning, and let the discerning get guidance—`"
+    proverb: "Listen, my son, to your father's instruction and do not forsake your mother's teaching."
   },
   {
     id: 4,
