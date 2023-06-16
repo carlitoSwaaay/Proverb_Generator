@@ -95,7 +95,7 @@ const PROVERBS = [
   },
   {
     id: 24,
-    proverb: ""
+    proverb: "Blessed are those who find wisdom, those who gain understanding, for she is more profitable than silver and yields better returns than gold. She is more precious than rubies; nothing you desire can compare with her. Long life is in her right hand; in her left hand are riches and honor. Her ways are pleasant ways, and all her paths are peace. She is a tree of life to those who take hold of her; those who hold her fast will be blessed."
   },
   {
     id: 25,
