@@ -63,18 +63,62 @@ const PROVERBS = [
   },
   {
     id: 16,
-    proverb: "."
+    proverb: "Wisdom will save you also from the adulterous woman, from the wayward woman with her seductive words, who has left the partner of her youth and ignored the covenant she made before God. Surely her house leads down to death and her paths to the spirits of the dead. None who go to her return or attain the paths of life."
   },
   {
     id: 17,
-    proverb: "."
+    proverb: "Thus you will walk in the ways of the good and keep to the paths of the righteous. For the upright will live in the land, and the blameless will remain in it; but the wicked will be cut off from the land, and the unfaithful will be torn from it."
   },
   {
     id: 18,
-    proverb: "."
+    proverb: "My son, do not forget my teaching, but keep my commands in your heart, for they will prolong your life many years and bring you peace and prosperity."
   },
   {
     id: 19,
-    proverb: "."
+    proverb: "Let love and faithfulness never leave you; bind them around your neck, write them on the tablet of your heart. Then you will win favor and a good name in the sight of God and man."
+  },
+  {
+    id: 20,
+    proverb: "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight."
+  },
+  {
+    id: 21,
+    proverb: "Do not be wise in your own eyes; fear the Lord and shun evil. This will bring health to your body and nourishment to your bones."
+  },
+  {
+    id: 22,
+    proverb: "Honor the Lord with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing, and your vats will brim over with new wine."
+  },
+  {
+    id: 23,
+    proverb: "My son, do not despise the Lord's discipline, and do not resent his rebuke, because the Lord disciplines those he loves, as a father the son he delights in."
+  },
+  {
+    id: 24,
+    proverb: ""
+  },
+  {
+    id: 25,
+    proverb: ""
+  },
+  {
+    id: 26,
+    proverb: ""
+  },
+  {
+    id: 27,
+    proverb: ""
+  },
+  {
+    id: 28,
+    proverb: ""
+  },
+  {
+    id: 29,
+    proverb: ""
+  },
+  {
+    id: 30,
+    proverb: ""
   },
 ];
