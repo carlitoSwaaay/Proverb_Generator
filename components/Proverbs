@@ -195,10 +195,70 @@ const PROVERBS = [
   },
   {
     id: 49,
-    proverb: ""
+    proverb: "Now then, my sons, listen to me; do not turn aside from what I say. Keep to a path far from her, do not go near the door of her house, lest you lose your honor to others and your dignity to one who is cruel, lest strangers feast on your wealth and your toil enrich the house of another."
   },
   {
     id: 50,
+    proverb: "At the end of your life you will groan, when your flesh and body are spent. You will say, “How I hated discipline! How my heart spurned correction! I would not obey my teachers or turn my ear to my instructors. And I was soon in serious trouble in the assembly of God's people.”"
+  },
+  {
+    id: 51,
+    proverb: "Drink water from your own cistern, running water from your own well. Should your springs overflow in the streets, your streams of water in the public squares? Let them be yours alone, never to be shared with strangers."
+  },
+  {
+    id: 52,
+    proverb: "May your fountain be blessed, and may you rejoice in the wife of your youth. A loving doe, a graceful deer— may her breasts satisfy you always, may you ever be intoxicated with her love. Why, my son, be intoxicated with another man's wife? Why embrace the bosom of a wayward woman?"
+  },
+  {
+    id: 53,
+    proverb: "For your ways are in full view of the Lord, and he examines all your paths. The evil deeds of the wicked ensnare them; the cords of their sins hold them fast. For lack of discipline they will die, led astray by their own great folly."
+  },
+  {
+    id: 54,
+    proverb: "My son, if you have put up security for your neighbor, if you have shaken hands in pledge for a stranger, you have been trapped by what you said,    ensnared by the words of your mouth."
+  },
+  {
+    id: 55,
+    proverb: "So do this, my son, to free yourself, since you have fallen into your neighbor's hands: Go—to the point of exhaustion— and give your neighbor no rest! Allow no sleep to your eyes, no slumber to your eyelids. Free yourself, like a gazelle from the hand of the hunter, like a bird from the snare of the fowler."
+  },
+  {
+    id: 56,
+    proverb: "Go to the ant, you sluggard; consider its ways and be wise! It has no commander, no overseer or ruler, yet it stores its provisions in summer and gathers its food at harvest."
+  },
+  {
+    id: 57,
+    proverb: "How long will you lie there, you sluggard? When will you get up from your sleep? A little sleep, a little slumber, a little folding of the hands to rest— and poverty will come on you like a thief and scarcity like an armed man."
+  },
+  {
+    id: 58,
+    proverb: "A troublemaker and a villain, who goes about with a corrupt mouth, who winks maliciously with his eye, signals with his feet and motions with his fingers, who plots evil with deceit in his heart— he always stirs up conflict. Therefore disaster will overtake him in an instant; he will suddenly be destroyed—without remedy."
+  },
+  {
+    id: 59,
+    proverb: ""
+  },
+  {
+    id: 60,
+    proverb: ""
+  },
+  {
+    id: 61,
+    proverb: ""
+  },
+  {
+    id: 62,
+    proverb: ""
+  },
+  {
+    id: 63,
+    proverb: ""
+  },
+  {
+    id: 64,
+    proverb: ""
+  },
+  {
+    id: 65,
     proverb: ""
   },
 ];
