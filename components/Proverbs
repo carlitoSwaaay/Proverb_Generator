@@ -26,55 +26,55 @@ const PROVERBS = [
     proverb: "These men lie in wait for their own blood; they ambush only themselves! Such are the paths of all who go after ill- gotten gain; it takes away the life of those who get it."
   },
   {
-    id: ,
+    id: 7,
+    proverb: "Out in the open wisdom calls aloud, she raises her voice in the public square; on top of the wall she cries out, at the city gate she makes her speech:"
+  },
+  {
+    id: 8,
+    proverb: "How long will you who are simple love your simple ways? How long will mockers delight in mockery and fools hate knowledge?"
+  },
+  {
+    id: 9,
+    proverb: "Repent at my rebuke! Then I will pour out my thoughts to you, I will make known to you my teachings. But since you refuse to listen when I call and no one pays attention when I stretch out my hand, since you disregard all my advice and do not accept my rebuke, I in turn will laugh when disaster strikes you; I will mock when calamity overtakes you— when calamity overtakes you like a storm, when disaster sweeps over you like a whirlwind, when distress and trouble overwhelm you."
+  },
+  {
+    id: 10,
+    proverb: "Then they will call to me but I will not answer; they will look for me but will not find me, since they hated knowledge and did not choose to fear the Lord. Since they would not accept my advice and spurned my rebuke, they will eat the fruit of their ways and be filled with the fruit of their schemes."
+  },
+  {
+    id: 11,
+    proverb: "For the waywardness of the simple will kill them, and the complacency of fools will destroy them; but whoever listens to me will live in safety and be at ease, without fear of harm."
+  },
+  {
+    id: 12,
+    proverb: "My son, if you accept my words and store up my commands within you, turning your ear to wisdom and applying your heart to understanding— indeed, if you call out for insight and cry aloud for understanding, and if you look for it as for silver and search for it as for hidden treasure, then you will understand the fear of the Lord and find the knowledge of God."
+  },
+  {
+    id: 13,
+    proverb: "For the Lord gives wisdom; from his mouth come knowledge and understanding. He holds success in store for the upright, he is a shield to those whose walk is blameless, for he guards the course of the just and protects the way of his faithful ones."
+  },
+  {
+    id: 14,
+    proverb: "Then you will understand what is right and just and fair—every good path. For wisdom will enter your heart, and knowledge will be pleasant to your soul.Discretion will protect you, and understanding will guard you."
+  },
+  {
+    id: 15,
+    proverb: "Wisdom will save you from the ways of wicked men, from men whose words are perverse, who have left the straight paths to walk in dark ways, who delight in doing wrong and rejoice in the perverseness of evil, whose paths are crooked and who are devious in their ways."
+  },
+  {
+    id: 16,
     proverb: "."
   },
   {
-    id: ,
+    id: 17,
     proverb: "."
   },
   {
-    id: ,
+    id: 18,
     proverb: "."
   },
   {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
-    proverb: "."
-  },
-  {
-    id: ,
+    id: 19,
     proverb: "."
   },
 ];
