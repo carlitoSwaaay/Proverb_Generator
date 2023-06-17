@@ -1239,63 +1239,63 @@ const PROVERBS = [
   },
   {
     id: 310,
-    proverb: ""
+    proverb: "Starting a quarrel is like breaching a dam; so drop the matter before a dispute breaks out."
   },
   {
     id: 311,
-    proverb: ""
+    proverb: "Acquitting the guilty and condemning the innocent— the Lord detests them both."
   },
   {
     id: 312,
-    proverb: ""
+    proverb: "Why should fools have money in hand to buy wisdom, when they are not able to understand it?"
   },
   {
     id: 313,
-    proverb: ""
+    proverb: "A friend loves at all times, and a brother is born for a time of adversity."
   },
   {
     id: 314,
-    proverb: ""
+    proverb: "One who has no sense shakes hands in pledge and puts up security for a neighbor."
   },
   {
     id: 315,
-    proverb: ""
+    proverb: "Whoever loves a quarrel loves sin; whoever builds a high gate invites destruction."
   },
   {
     id: 316,
-    proverb: ""
+    proverb: "One whose heart is corrupt does not prosper; one whose tongue is perverse falls into trouble."
   },
   {
     id: 317,
-    proverb: ""
+    proverb: "To have a fool for a child brings grief; there is no joy for the parent of a godless fool."
   },
   {
     id: 318,
-    proverb: ""
+    proverb: "A cheerful heart is good medicine, but a crushed spirit dries up the bones."
   },
   {
     id: 319,
-    proverb: ""
+    proverb: "The wicked accept bribes in secret to pervert the course of justice."
   },
   {
     id: 320,
-    proverb: ""
+    proverb: "A discerning person keeps wisdom in view, but a fool’s eyes wander to the ends of the earth."
   },
   {
     id: 321,
-    proverb: ""
+    proverb: "A foolish son brings grief to his father and bitterness to the mother who bore him."
   },
   {
     id: 322,
-    proverb: ""
+    proverb: "If imposing a fine on the innocent is not good, surely to flog honest officials is not right."
   },
   {
     id: 323,
-    proverb: ""
+    proverb: "The one who has knowledge uses words with restraint, and whoever has understanding is even- tempered."
   },
   {
     id: 324,
-    proverb: ""
+    proverb: "Even fools are thought wise if they keep silent, and discerning if they hold their tongues."
   },
   {
     id: 325,
