@@ -804,114 +804,350 @@ on a seat at the highest point of the city, calling out to those who pass by, wh
   },
   {
     id: 201,
-    proverb: ""
+    proverb: "The mocker seeks wisdom and finds none, but knowledge comes easily to the discerning."
   },
   {
     id: 202,
-    proverb: ""
+    proverb: "Stay away from a fool, for you will not find knowledge on their lips."
   },
   {
     id: 203,
-    proverb: ""
+    proverb: "The wisdom of the prudent is to give thought to their ways, but the folly of fools is deception."
   },
   {
     id: 204,
-    proverb: ""
+    proverb: "Fools mock at making amends for sin, but goodwill is found among the upright."
   },
   {
     id: 205,
-    proverb: ""
+    proverb: "Each heart knows its own bitterness, and no one else can share its joy."
   },
   {
     id: 206,
-    proverb: ""
+    proverb: "The house of the wicked will be destroyed, but the tent of the upright will flourish."
   },
   {
     id: 207,
-    proverb: ""
+    proverb: "There is a way that appears to be right, but in the end it leads to death."
   },
   {
     id: 208,
-    proverb: ""
+    proverb: "Even in laughter the heart may ache, and rejoicing may end in grief."
   },
   {
     id: 209,
-    proverb: ""
+    proverb: "The faithless will be fully repaid for their ways, and the good rewarded for theirs."
   },
   {
     id: 210,
-    proverb: ""
+    proverb: "The simple believe anything, but the prudent give thought to their steps."
   },
   {
     id: 211,
-    proverb: ""
+    proverb: "The wise fear the Lord and shun evil, but a fool is hotheaded and yet feels secure."
   },
   {
     id: 212,
-    proverb: ""
+    proverb: "A quick-tempered person does foolish things, and the one who devises evil schemes is hated."
   },
   {
     id: 213,
-    proverb: ""
+    proverb: "The simple inherit folly, but the prudent are crowned with knowledge."
   },
   {
     id: 214,
-    proverb: ""
+    proverb: "Evildoers will bow down in the presence of the good, and the wicked at the gates of the righteous."
   },
   {
     id: 215,
-    proverb: ""
+    proverb: "The poor are shunned even by their neighbors, but the rich have many friends."
   },
   {
     id: 216,
-    proverb: ""
+    proverb: "It is a sin to despise one's neighbor, but blessed is the one who is kind to the needy."
   },
   {
     id: 217,
-    proverb: ""
+    proverb: "Do not those who plot evil go astray? But those who plan what is good find love and faithfulness."
   },
   {
     id: 218,
-    proverb: ""
+    proverb: "All hard work brings a profit, but mere talk leads only to poverty."
   },
   {
     id: 219,
-    proverb: ""
+    proverb: "The wealth of the wise is their crown, but the folly of fools yields folly."
   },
   {
     id: 220,
-    proverb: ""
+    proverb: "A truthful witness saves lives, but a false witness is deceitful."
   },
   {
     id: 221,
-    proverb: ""
+    proverb: "Whoever fears the Lord has a secure fortress, and for their children it will be a refuge."
   },
   {
     id: 222,
-    proverb: ""
+    proverb: "The fear of the Lord is a fountain of life, turning a person from the snares of death."
   },
   {
     id: 223,
-    proverb: ""
+    proverb: "A large population is a king's glory, but without subjects a prince is ruined."
   },
   {
     id: 224,
-    proverb: ""
+    proverb: "Whoever is patient has great understanding, but one who is quick-tempered displays folly."
   },
   {
     id: 225,
-    proverb: ""
+    proverb: "A heart at peace gives life to the body, but envy rots the bones."
   },
   {
     id: 226,
-    proverb: ""
+    proverb: "Whoever oppresses the poor shows contempt for their Maker, but whoever is kind to the needy honors God."
   },
   {
     id: 227,
-    proverb: ""
+    proverb: "When calamity comes, the wicked are brought down, but even in death the righteous seek refuge in God."
   },
   {
     id: 228,
+    proverb: "Wisdom reposes in the heart of the discerning and even among fools she lets herself be known."
+  },
+  {
+    id: 229,
+    proverb: ""
+  },
+  {
+    id: 230,
+    proverb: ""
+  },
+  {
+    id: 231,
+    proverb: ""
+  },
+  {
+    id: 232,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
     proverb: ""
   },
   {
