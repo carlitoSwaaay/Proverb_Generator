@@ -307,30 +307,159 @@ const PROVERBS = [
   },
   {
     id: 77,
-    proverb: ""
+    proverb: "The fear of the Lord is the beginning of wisdom, and knowledge of the Holy One is understanding. For through wisdom your days will be many, and years will be added to your life."
   },
   {
     id: 78,
-    proverb: ""
+    proverb: "If you are wise, your wisdom will reward you; if you are a mocker, you alone will suffer."
   },
   {
     id: 79,
-    proverb: ""
+    proverb: "Folly is an unruly woman; she is simple and knows nothing. She sits at the door of her house,
+on a seat at the highest point of the city, calling out to those who pass by, who go straight on their way, “Let all who are simple come to my house!” To those who have no sense she says, “Stolen water is sweet; food eaten in secret is delicious!” But little do they know that the dead are there, that her guests are deep in the realm of the dead."
   },
   {
     id: 80,
-    proverb: ""
+    proverb: "The proverbs of Solomon: A wise son brings joy to his father, but a foolish son brings grief to his mother."
   },
   {
     id: 81,
-    proverb: ""
+    proverb: "Ill-gotten treasures have no lasting value, but righteousness delivers from death."
   },
   {
     id: 82,
-    proverb: ""
+    proverb: "The Lord does not let the righteous go hungry, but he thwarts the craving of the wicked."
   },
   {
     id: 83,
+    proverb: "Lazy hands make for poverty, but diligent hands bring wealth."
+  },
+  {
+    id: 84,
+    proverb: "He who gathers crops in summer is a prudent son, but he who sleeps during harvest is a disgraceful son."
+  },
+  {
+    id: 85,
+    proverb: "Blessings crown the head of the righteous, but violence overwhelms the mouth of the wicked."
+  },
+  {
+    id: 86,
+    proverb: "The name of the righteous is used in blessings, but the name of the wicked will rot."
+  },
+  {
+    id: 87,
+    proverb: "The wise in heart accept commands, but a chattering fool comes to ruin."
+  },
+  {
+    id: 88,
+    proverb: "Whoever walks in integrity walks securely, but whoever takes crooked paths will be found out."
+  },
+  {
+    id: 89,
+    proverb: "Whoever winks maliciously causes grief, and a chattering fool comes to ruin."
+  },
+  {
+    id: 90,
+    proverb: "The mouth of the righteous is a fountain of life, but the mouth of the wicked conceals violence."
+  },
+  {
+    id: 91,
+    proverb: "Hatred stirs up conflict, but love covers over all wrongs."
+  },
+  {
+    id: 92,
+    proverb: ""
+  },
+  {
+    id: 93,
+    proverb: ""
+  },
+  {
+    id: 94,
+    proverb: ""
+  },
+  {
+    id: 95,
+    proverb: ""
+  },
+  {
+    id: 96,
+    proverb: ""
+  },
+  {
+    id: 97,
+    proverb: ""
+  },
+  {
+    id: 98,
+    proverb: ""
+  },
+  {
+    id: 99,
+    proverb: ""
+  },
+  {
+    id: 100,
+    proverb: ""
+  },
+  {
+    id: 101,
+    proverb: ""
+  },
+  {
+    id: 102,
+    proverb: ""
+  },
+  {
+    id: 103,
+    proverb: ""
+  },
+  {
+    id: 104,
+    proverb: ""
+  },
+  {
+    id: 105,
+    proverb: ""
+  },
+  {
+    id: 106,
+    proverb: ""
+  },
+  {
+    id: 107,
+    proverb: ""
+  },
+  {
+    id: 108,
+    proverb: ""
+  },
+  {
+    id: 109,
+    proverb: ""
+  },
+  {
+    id: 110,
+    proverb: ""
+  },
+  {
+    id: 111,
+    proverb: ""
+  },
+  {
+    id: 112,
+    proverb: ""
+  },
+  {
+    id: 113,
+    proverb: ""
+  },
+  {
+    id: 114,
+    proverb: ""
+  },
+  {
+    id: 115,
     proverb: ""
   },
 ];
