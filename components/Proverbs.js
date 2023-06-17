@@ -1297,6 +1297,7 @@ const PROVERBS = [
     id: 324,
     proverb: "Even fools are thought wise if they keep silent, and discerning if they hold their tongues."
   },
+  /*Proverbs 18 vv */
   {
     id: 325,
     proverb: ""
