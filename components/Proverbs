@@ -572,54 +572,346 @@ on a seat at the highest point of the city, calling out to those who pass by, wh
   },
   {
     id: 143,
-    proverb: ""
+    proverb: "Whoever loves discipline loves knowledge, but whoever hates correction is stupid."
   },
   {
     id: 144,
-    proverb: ""
+    proverb: "Good people obtain favor from the Lord, but he condemns those who devise wicked schemes."
   },
   {
     id: 145,
-    proverb: ""
+    proverb: "No one can be established through wickedness, but the righteous cannot be uprooted."
   },
   {
     id: 146,
-    proverb: ""
+    proverb: "A wife of noble character is her husband's crown, but a disgraceful wife is like decay in his bones."
   },
   {
     id: 147,
-    proverb: ""
+    proverb: "The plans of the righteous are just, but the advice of the wicked is deceitful."
   },
   {
     id: 148,
-    proverb: ""
+    proverb: "The words of the wicked lie in wait for blood, but the speech of the upright rescues them."
   },
   {
     id: 149,
-    proverb: ""
+    proverb: "The wicked are overthrown and are no more, but the house of the righteous stands firm."
   },
   {
     id: 150,
-    proverb: ""
+    proverb: "A person is praised according to their prudence, and one with a warped mind is despised."
   },
   {
     id: 151,
-    proverb: ""
+    proverb: "Better to be a nobody and yet have a servant than pretend to be somebody and have no food."
   },
   {
     id: 152,
-    proverb: ""
+    proverb: "The righteous care for the needs of their animals, but the kindest acts of the wicked are cruel."
   },
   {
     id: 153,
-    proverb: ""
+    proverb: "Those who work their land will have abundant food, but those who chase fantasies have no sense."
   },
   {
     id: 154,
-    proverb: ""
+    proverb: "The wicked desire the stronghold of evildoers, but the root of the righteous endures."
   },
   {
     id: 155,
+    proverb: "Evildoers are trapped by their sinful talk, and so the innocent escape trouble."
+  },
+  {
+    id: 156,
+    proverb: "From the fruit of their lips people are filled with good things, and the work of their hands brings them reward."
+  },
+  {
+    id: 157,
+    proverb: "The way of fools seems right to them, but the wise listen to advice."
+  },
+  {
+    id: 158,
+    proverb: ""
+  },
+  {
+    id: 159,
+    proverb: ""
+  },
+  {
+    id: 160,
+    proverb: ""
+  },
+  {
+    id: 161,
+    proverb: ""
+  },
+  {
+    id: 162,
+    proverb: ""
+  },
+  {
+    id: 163,
+    proverb: ""
+  },
+  {
+    id: 164,
+    proverb: ""
+  },
+  {
+    id: 165,
+    proverb: ""
+  },
+  {
+    id: 166,
+    proverb: ""
+  },
+  {
+    id: 167,
+    proverb: ""
+  },
+  {
+    id: 168,
+    proverb: ""
+  },
+  {
+    id: 169,
+    proverb: ""
+  },
+  {
+    id: 170,
+    proverb: ""
+  },
+  {
+    id: 171,
+    proverb: ""
+  },
+  {
+    id: 172,
+    proverb: ""
+  },
+  {
+    id: 173,
+    proverb: ""
+  },
+  {
+    id: 174,
+    proverb: ""
+  },
+  {
+    id: 175,
+    proverb: ""
+  },
+  {
+    id: 176,
+    proverb: ""
+  },
+  {
+    id: 177,
+    proverb: ""
+  },
+  {
+    id: 178,
+    proverb: ""
+  },
+  {
+    id: 179,
+    proverb: ""
+  },
+  {
+    id: 180,
+    proverb: ""
+  },
+  {
+    id: 181,
+    proverb: ""
+  },
+  {
+    id: 182,
+    proverb: ""
+  },
+  {
+    id: 183,
+    proverb: ""
+  },
+  {
+    id: 184,
+    proverb: ""
+  },
+  {
+    id: 185,
+    proverb: ""
+  },
+  {
+    id: 186,
+    proverb: ""
+  },
+  {
+    id: 187,
+    proverb: ""
+  },
+  {
+    id: 188,
+    proverb: ""
+  },
+  {
+    id: 189,
+    proverb: ""
+  },
+  {
+    id: 190,
+    proverb: ""
+  },
+  {
+    id: 191,
+    proverb: ""
+  },
+  {
+    id: 192,
+    proverb: ""
+  },
+  {
+    id: 193,
+    proverb: ""
+  },
+  {
+    id: 194,
+    proverb: ""
+  },
+  {
+    id: 195,
+    proverb: ""
+  },
+  {
+    id: 196,
+    proverb: ""
+  },
+  {
+    id: 197,
+    proverb: ""
+  },
+  {
+    id: 198,
+    proverb: ""
+  },
+  {
+    id: 199,
+    proverb: ""
+  },
+  {
+    id: 200,
+    proverb: ""
+  },
+  {
+    id: 201,
+    proverb: ""
+  },
+  {
+    id: 202,
+    proverb: ""
+  },
+  {
+    id: 203,
+    proverb: ""
+  },
+  {
+    id: 204,
+    proverb: ""
+  },
+  {
+    id: 205,
+    proverb: ""
+  },
+  {
+    id: 206,
+    proverb: ""
+  },
+  {
+    id: 207,
+    proverb: ""
+  },
+  {
+    id: 208,
+    proverb: ""
+  },
+  {
+    id: 209,
+    proverb: ""
+  },
+  {
+    id: 210,
+    proverb: ""
+  },
+  {
+    id: 211,
+    proverb: ""
+  },
+  {
+    id: 212,
+    proverb: ""
+  },
+  {
+    id: 213,
+    proverb: ""
+  },
+  {
+    id: 214,
+    proverb: ""
+  },
+  {
+    id: 215,
+    proverb: ""
+  },
+  {
+    id: 216,
+    proverb: ""
+  },
+  {
+    id: 217,
+    proverb: ""
+  },
+  {
+    id: 218,
+    proverb: ""
+  },
+  {
+    id: 219,
+    proverb: ""
+  },
+  {
+    id: 220,
+    proverb: ""
+  },
+  {
+    id: 221,
+    proverb: ""
+  },
+  {
+    id: 222,
+    proverb: ""
+  },
+  {
+    id: 223,
+    proverb: ""
+  },
+  {
+    id: 224,
+    proverb: ""
+  },
+  {
+    id: 225,
+    proverb: ""
+  },
+  {
+    id: 226,
+    proverb: ""
+  },
+  {
+    id: 227,
+    proverb: ""
+  },
+  {
+    id: 228,
     proverb: ""
   },
   {
