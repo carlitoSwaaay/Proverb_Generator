@@ -315,8 +315,7 @@ const PROVERBS = [
   },
   {
     id: 79,
-    proverb: "Folly is an unruly woman; she is simple and knows nothing. She sits at the door of her house,
-on a seat at the highest point of the city, calling out to those who pass by, who go straight on their way, “Let all who are simple come to my house!” To those who have no sense she says, “Stolen water is sweet; food eaten in secret is delicious!” But little do they know that the dead are there, that her guests are deep in the realm of the dead."
+    proverb: "Folly is an unruly woman; she is simple and knows nothing. She sits at the door of her house, on a seat at the highest point of the city, calling out to those who pass by, who go straight on their way, “Let all who are simple come to my house!” To those who have no sense she says, “Stolen water is sweet; food eaten in secret is delicious!” But little do they know that the dead are there, that her guests are deep in the realm of the dead."
   },
   {
     id: 80,
