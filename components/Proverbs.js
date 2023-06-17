@@ -1051,27 +1051,27 @@ const PROVERBS = [
   },
   {
     id: 263,
-    proverb: "Wisdom’s instruction is to fear the Lord, and humility comes before honor."
+    proverb: "Wisdom's instruction is to fear the Lord, and humility comes before honor."
   },
   {
     id: 264,
-    proverb: ""
+    proverb: "To humans belong the plans of the heart, but from the Lord comes the proper answer of the tongue."
   },
   {
     id: 265,
-    proverb: ""
+    proverb: "All a person's ways seem pure to them, but motives are weighed by the Lord."
   },
   {
     id: 266,
-    proverb: ""
+    proverb: "Commit to the Lord whatever you do, and he will establish your plans."
   },
   {
     id: 267,
-    proverb: ""
+    proverb: "The Lord works out everything to its proper end— even the wicked for a day of disaster."
   },
   {
     id: 268,
-    proverb: ""
+    proverb: "The Lord detests all the proud of heart. Be sure of this: They will not go unpunished."
   },
   {
     id: 269,
