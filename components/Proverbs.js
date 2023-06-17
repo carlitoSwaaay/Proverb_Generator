@@ -1075,78 +1075,298 @@ const PROVERBS = [
   },
   {
     id: 269,
-    proverb: ""
+    proverb: "Through love and faithfulness sin is atoned for; through the fear of the Lord evil is avoided."
   },
   {
     id: 270,
-    proverb: ""
+    proverb: "When the Lord takes pleasure in anyone's way, he causes their enemies to make peace with them."
   },
   {
     id: 271,
-    proverb: ""
+    proverb: "Better a little with righteousness than much gain with injustice."
   },
   {
     id: 272,
-    proverb: ""
+    proverb: "In their hearts humans plan their course, but the Lord establishes their steps."
   },
   {
     id: 273,
-    proverb: ""
+    proverb: "The lips of a king speak as an oracle, and his mouth does not betray justice."
   },
   {
     id: 274,
-    proverb: ""
+    proverb: "Honest scales and balances belong to the Lord; all the weights in the bag are of his making."
   },
   {
     id: 275,
-    proverb: ""
+    proverb: "Kings detest wrongdoing, for a throne is established through righteousness."
   },
   {
     id: 276,
-    proverb: ""
+    proverb: "Kings take pleasure in honest lips; they value the one who speaks what is right."
   },
   {
     id: 277,
-    proverb: ""
+    proverb: "A king's wrath is a messenger of death, but the wise will appease it."
   },
   {
     id: 278,
-    proverb: ""
+    proverb: "When a king's face brightens, it means life; his favor is like a rain cloud in spring."
   },
   {
     id: 279,
-    proverb: ""
+    proverb: "How much better to get wisdom than gold, to get insight rather than silver!"
   },
   {
     id: 280,
-    proverb: ""
+    proverb: "The highway of the upright avoids evil; those who guard their ways preserve their lives."
   },
   {
     id: 281,
-    proverb: ""
+    proverb: "Pride goes before destruction, a haughty spirit before a fall."
   },
   {
     id: 282,
-    proverb: ""
+    proverb: "Better to be lowly in spirit along with the oppressed than to share plunder with the proud."
   },
   {
     id: 283,
-    proverb: ""
+    proverb: "Whoever gives heed to instruction prospers, and blessed is the one who trusts in the Lord."
   },
   {
     id: 284,
-    proverb: ""
+    proverb: "The wise in heart are called discerning, and gracious words promote instruction."
   },
   {
     id: 285,
-    proverb: ""
+    proverb: "Prudence is a fountain of life to the prudent, but folly brings punishment to fools."
   },
   {
     id: 286,
-    proverb: ""
+    proverb: "The hearts of the wise make their mouths prudent, and their lips promote instruction."
   },
   {
     id: 287,
+    proverb: "Gracious words are a honeycomb, sweet to the soul and healing to the bones."
+  },
+  {
+    id: 288,
+    proverb: ""
+  },
+  {
+    id: 289,
+    proverb: ""
+  },
+  {
+    id: 290,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
     proverb: ""
   },
   {
