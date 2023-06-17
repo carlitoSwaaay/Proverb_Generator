@@ -995,63 +995,63 @@ const PROVERBS = [
   },
   {
     id: 249,
-    proverb: ""
+    proverb: "The way of the sluggard is blocked with thorns, but the path of the upright is a highway."
   },
   {
     id: 250,
-    proverb: ""
+    proverb: "A wise son brings joy to his father, but a foolish man despises his mother."
   },
   {
     id: 251,
-    proverb: ""
+    proverb: "Folly brings joy to one who has no sense, but whoever has understanding keeps a straight course."
   },
   {
     id: 252,
-    proverb: ""
+    proverb: "Plans fail for lack of counsel, but with many advisers they succeed."
   },
   {
     id: 253,
-    proverb: ""
+    proverb: "A person finds joy in giving an apt reply— and how good is a timely word!"
   },
   {
     id: 254,
-    proverb: ""
+    proverb: "The path of life leads upward for the prudent to keep them from going down to the realm of the dead."
   },
   {
     id: 255,
-    proverb: ""
+    proverb: "The Lord tears down the house of the proud, but he sets the widow's boundary stones in place."
   },
   {
     id: 256,
-    proverb: ""
+    proverb: "The Lord detests the thoughts of the wicked, but gracious words are pure in his sight."
   },
   {
     id: 257,
-    proverb: ""
+    proverb: "The greedy bring ruin to their households, but the one who hates bribes will live."
   },
   {
     id: 258,
-    proverb: ""
+    proverb: "The heart of the righteous weighs its answers, but the mouth of the wicked gushes evil."
   },
   {
     id: 259,
-    proverb: ""
+    proverb: "The Lord is far from the wicked, but he hears the prayer of the righteous."
   },
   {
     id: 260,
-    proverb: ""
+    proverb: "Light in a messenger's eyes brings joy to the heart, and good news gives health to the bones."
   },
   {
     id: 261,
-    proverb: ""
+    proverb: "Whoever heeds life-giving correction will be at home among the wise."
   },
   {
     id: 262,
-    proverb: ""
+    proverb: "Those who disregard discipline despise themselves, but the one who heeds correction gains understanding."
   },
   {
     id: 263,
-    proverb: ""
+    proverb: "Wisdom’s instruction is to fear the Lord, and humility comes before honor."
   },
   {
     id: 264,
