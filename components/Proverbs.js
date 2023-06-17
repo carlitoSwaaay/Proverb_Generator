@@ -1151,14 +1151,238 @@ const PROVERBS = [
   },
   {
     id: 288,
-    proverb: ""
+    proverb: "There is a way that appears to be right, but in the end it leads to death."
   },
   {
     id: 289,
-    proverb: ""
+    proverb: "The appetite of laborers works for them; their hunger drives them on."
   },
   {
     id: 290,
+    proverb: "A scoundrel plots evil, and on their lips it is like a scorching fire."
+  },
+  {
+    id: 291,
+    proverb: "A perverse person stirs up conflict, and a gossip separates close friends."
+  },
+  {
+    id: 292,
+    proverb: "A violent person entices their neighbor and leads them down a path that is not good."
+  },
+  {
+    id: 293,
+    proverb: "Whoever winks with their eye is plotting perversity; whoever purses their lips is bent on evil."
+  },
+  {
+    id: 294,
+    proverb: "Gray hair is a crown of splendor; it is attained in the way of righteousness."
+  },
+  {
+    id: 295,
+    proverb: "Better a patient person than a warrior, one with self - control than one who takes a city."
+  },
+  {
+    id: 296,
+    proverb: "The lot is cast into the lap, but its every decision is from the Lord."
+  },
+  {
+    id: 297,
+    proverb: "Better a dry crust with peace and quiet than a house full of feasting, with strife."
+  },
+  {
+    id: 298,
+    proverb: "A prudent servant will rule over a disgraceful son and will share the inheritance as one of the family."
+  },
+  {
+    id: 299,
+    proverb: "The crucible for silver and the furnace for gold, but the Lord tests the heart."
+  },
+  {
+    id: 300,
+    proverb: "A wicked person listens to deceitful lips; a liar pays attention to a destructive tongue."
+  },
+  {
+    id: 301,
+    proverb: "Whoever mocks the poor shows contempt for their Maker; whoever gloats over disaster will not go unpunished."
+  },
+  {
+    id: 302,
+    proverb: "Children's children are a crown to the aged, and parents are the pride of their children."
+  },
+  {
+    id: 303,
+    proverb: "Eloquent lips are unsuited to a godless fool— how much worse lying lips to a ruler!"
+  },
+  {
+    id: 304,
+    proverb: "A bribe is seen as a charm by the one who gives it; they think success will come at every turn."
+  },
+  {
+    id: 305,
+    proverb: "Whoever would foster love covers over an offense, but whoever repeats the matter separates close friends."
+  },
+  {
+    id: 306,
+    proverb: "A rebuke impresses a discerning person more than a hundred lashes a fool."
+  },
+  {
+    id: 307,
+    proverb: "Evildoers foster rebellion against God; the messenger of death will be sent against them."
+  },
+  {
+    id: 308,
+    proverb: "Better to meet a bear robbed of her cubs than a fool bent on folly."
+  },
+  {
+    id: 309,
+    proverb: "Evil will never leave the house of one who pays back evil for good."
+  },
+  {
+    id: 310,
+    proverb: ""
+  },
+  {
+    id: 311,
+    proverb: ""
+  },
+  {
+    id: 312,
+    proverb: ""
+  },
+  {
+    id: 313,
+    proverb: ""
+  },
+  {
+    id: 314,
+    proverb: ""
+  },
+  {
+    id: 315,
+    proverb: ""
+  },
+  {
+    id: 316,
+    proverb: ""
+  },
+  {
+    id: 317,
+    proverb: ""
+  },
+  {
+    id: 318,
+    proverb: ""
+  },
+  {
+    id: 319,
+    proverb: ""
+  },
+  {
+    id: 320,
+    proverb: ""
+  },
+  {
+    id: 321,
+    proverb: ""
+  },
+  {
+    id: 322,
+    proverb: ""
+  },
+  {
+    id: 323,
+    proverb: ""
+  },
+  {
+    id: 324,
+    proverb: ""
+  },
+  {
+    id: 325,
+    proverb: ""
+  },
+  {
+    id: 326,
+    proverb: ""
+  },
+  {
+    id: 327,
+    proverb: ""
+  },
+  {
+    id: 328,
+    proverb: ""
+  },
+  {
+    id: 329,
+    proverb: ""
+  },
+  {
+    id: 330,
+    proverb: ""
+  },
+  {
+    id: 331,
+    proverb: ""
+  },
+  {
+    id: 332,
+    proverb: ""
+  },
+  {
+    id: 333,
+    proverb: ""
+  },
+  {
+    id: 334,
+    proverb: ""
+  },
+  {
+    id: 335,
+    proverb: ""
+  },
+  {
+    id: 336,
+    proverb: ""
+  },
+  {
+    id: 337,
+    proverb: ""
+  },
+  {
+    id: 338,
+    proverb: ""
+  },
+  {
+    id: 339,
+    proverb: ""
+  },
+  {
+    id: 340,
+    proverb: ""
+  },
+  {
+    id: 341,
+    proverb: ""
+  },
+  {
+    id: 342,
+    proverb: ""
+  },
+  {
+    id: 3,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
+    proverb: ""
+  },
+  {
+    id: ,
     proverb: ""
   },
   {
