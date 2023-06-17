@@ -915,238 +915,238 @@ const PROVERBS = [
   },
   {
     id: 229,
-    proverb: ""
+    proverb: "Righteousness exalts a nation, but sin condemns any people."
   },
   {
     id: 230,
-    proverb: ""
+    proverb: "A king delights in a wise servant, but a shameful servant arouses his fury."
   },
   {
     id: 231,
-    proverb: ""
+    proverb: "A gentle answer turns away wrath, but a harsh word stirs up anger."
   },
   {
     id: 232,
+    proverb: "The tongue of the wise adorns knowledge, but the mouth of the fool gushes folly."
+  },
+  {
+    id: 233,
+    proverb: "The eyes of the Lord are everywhere, keeping watch on the wicked and the good."
+  },
+  {
+    id: 234,
+    proverb: "The soothing tongue is a tree of life, but a perverse tongue crushes the spirit."
+  },
+  {
+    id: 235,
+    proverb: "A fool spurns a parent's discipline, but whoever heeds correction shows prudence."
+  },
+  {
+    id: 236,
+    proverb: "The house of the righteous contains great treasure, but the income of the wicked brings ruin."
+  },
+  {
+    id: 237,
+    proverb: "The lips of the wise spread knowledge, but the hearts of fools are not upright."
+  },
+  {
+    id: 238,
+    proverb: "The Lord detests the sacrifice of the wicked, but the prayer of the upright pleases him."
+  },
+  {
+    id: 239,
+    proverb: "The Lord detests the way of the wicked, but he loves those who pursue righteousness."
+  },
+  {
+    id: 240,
+    proverb: "Stern discipline awaits anyone who leaves the path; the one who hates correction will die."
+  },
+  {
+    id: 241,
+    proverb: "Death and Destruction lie open before the Lord— how much more do human hearts!"
+  },
+  {
+    id: 242,
+    proverb: "Mockers resent correction, so they avoid the wise."
+  },
+  {
+    id: 243,
+    proverb: "A happy heart makes the face cheerful, but heartache crushes the spirit."
+  },
+  {
+    id: 244,
+    proverb: "The discerning heart seeks knowledge, but the mouth of a fool feeds on folly."
+  },
+  {
+    id: 245,
+    proverb: "All the days of the oppressed are wretched, but the cheerful heart has a continual feast."
+  },
+  {
+    id: 246,
+    proverb: "Better a little with the fear of the Lord than great wealth with turmoil."
+  },
+  {
+    id: 247,
+    proverb: "Better a small serving of vegetables with love than a fattened calf with hatred."
+  },
+  {
+    id: 248,
+    proverb: "A hot-tempered person stirs up conflict, but the one who is patient calms a quarrel."
+  },
+  {
+    id: 249,
     proverb: ""
   },
   {
-    id: ,
+    id: 250,
     proverb: ""
   },
   {
-    id: ,
+    id: 251,
     proverb: ""
   },
   {
-    id: ,
+    id: 252,
     proverb: ""
   },
   {
-    id: ,
+    id: 253,
     proverb: ""
   },
   {
-    id: ,
+    id: 254,
     proverb: ""
   },
   {
-    id: ,
+    id: 255,
     proverb: ""
   },
   {
-    id: ,
+    id: 256,
     proverb: ""
   },
   {
-    id: ,
+    id: 257,
     proverb: ""
   },
   {
-    id: ,
+    id: 258,
     proverb: ""
   },
   {
-    id: ,
+    id: 259,
     proverb: ""
   },
   {
-    id: ,
+    id: 260,
     proverb: ""
   },
   {
-    id: ,
+    id: 261,
     proverb: ""
   },
   {
-    id: ,
+    id: 262,
     proverb: ""
   },
   {
-    id: ,
+    id: 263,
     proverb: ""
   },
   {
-    id: ,
+    id: 264,
     proverb: ""
   },
   {
-    id: ,
+    id: 265,
     proverb: ""
   },
   {
-    id: ,
+    id: 266,
     proverb: ""
   },
   {
-    id: ,
+    id: 267,
     proverb: ""
   },
   {
-    id: ,
+    id: 268,
     proverb: ""
   },
   {
-    id: ,
+    id: 269,
     proverb: ""
   },
   {
-    id: ,
+    id: 270,
     proverb: ""
   },
   {
-    id: ,
+    id: 271,
     proverb: ""
   },
   {
-    id: ,
+    id: 272,
     proverb: ""
   },
   {
-    id: ,
+    id: 273,
     proverb: ""
   },
   {
-    id: ,
+    id: 274,
     proverb: ""
   },
   {
-    id: ,
+    id: 275,
     proverb: ""
   },
   {
-    id: ,
+    id: 276,
     proverb: ""
   },
   {
-    id: ,
+    id: 277,
     proverb: ""
   },
   {
-    id: ,
+    id: 278,
     proverb: ""
   },
   {
-    id: ,
+    id: 279,
     proverb: ""
   },
   {
-    id: ,
+    id: 280,
     proverb: ""
   },
   {
-    id: ,
+    id: 281,
     proverb: ""
   },
   {
-    id: ,
+    id: 282,
     proverb: ""
   },
   {
-    id: ,
+    id: 283,
     proverb: ""
   },
   {
-    id: ,
+    id: 284,
     proverb: ""
   },
   {
-    id: ,
+    id: 285,
     proverb: ""
   },
   {
-    id: ,
+    id: 286,
     proverb: ""
   },
   {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
+    id: 287,
     proverb: ""
   },
   {
