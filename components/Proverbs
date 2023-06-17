@@ -452,14 +452,178 @@ on a seat at the highest point of the city, calling out to those who pass by, wh
   },
   {
     id: 113,
-    proverb: ""
+    proverb: "When pride comes, then comes disgrace, but with humility comes wisdom."
   },
   {
     id: 114,
-    proverb: ""
+    proverb: "The integrity of the upright guides them, but the unfaithful are destroyed by their duplicity."
   },
   {
     id: 115,
+    proverb: "Wealth is worthless in the day of wrath, but righteousness delivers from death."
+  },
+  {
+    id: 116,
+    proverb: "The righteousness of the blameless makes their paths straight, but the wicked are brought down by their own wickedness."
+  },
+  {
+    id: 117,
+    proverb: "The righteousness of the upright delivers them, but the unfaithful are trapped by evil desires."
+  },
+  {
+    id: 118,
+    proverb: "Hopes placed in mortals die with them; all the promise of their power comes to nothing."
+  },
+  {
+    id: 119,
+    proverb: "The righteous person is rescued from trouble, and it falls on the wicked instead."
+  },
+  {
+    id: 120,
+    proverb: "With their mouths the godless destroy their neighbors, but through knowledge the righteous escape."
+  },
+  {
+    id: 121,
+    proverb: "When the righteous prosper, the city rejoices; when the wicked perish, there are shouts of joy."
+  },
+  {
+    id: 122,
+    proverb: "Through the blessing of the upright a city is exalted, but by the mouth of the wicked it is destroyed."
+  },
+  {
+    id: 123,
+    proverb: "Whoever derides their neighbor has no sense, but the one who has understanding holds their tongue."
+  },
+  {
+    id: 124,
+    proverb: "A gossip betrays a confidence, but a trustworthy person keeps a secret."
+  },
+  {
+    id: 125,
+    proverb: "For lack of guidance a nation falls, but victory is won through many advisers."
+  },
+  {
+    id: 126,
+    proverb: "Whoever puts up security for a stranger will surely suffer, but whoever refuses to shake hands in pledge is safe."
+  },
+  {
+    id: 127,
+    proverb: "A kindhearted woman gains honor, but ruthless men gain only wealth."
+  },
+  {
+    id: 128,
+    proverb: "Those who are kind benefit themselves, but the cruel bring ruin on themselves."
+  },
+  {
+    id: 129,
+    proverb: "A wicked person earns deceptive wages, but the one who sows righteousness reaps a sure reward."
+  },
+  {
+    id: 130,
+    proverb: "Truly the righteous attain life, but whoever pursues evil finds death."
+  },
+  {
+    id: 131,
+    proverb: "The Lord detests those whose hearts are perverse, but he delights in those whose ways are blameless."
+  },
+  {
+    id: 132,
+    proverb: "Be sure of this: The wicked will not go unpunished, but those who are righteous will go free. "
+  },
+  {
+    id: 133,
+    proverb: "Like a gold ring in a pig's snout is a beautiful woman who shows no discretion."
+  },
+  {
+    id: 134,
+    proverb: "The desire of the righteous ends only in good, but the hope of the wicked only in wrath."
+  },
+  {
+    id: 135,
+    proverb: ""
+  },
+  {
+    id: 136,
+    proverb: ""
+  },
+  {
+    id: 137,
+    proverb: ""
+  },
+  {
+    id: 138,
+    proverb: ""
+  },
+  {
+    id: 139,
+    proverb: ""
+  },
+  {
+    id: 140,
+    proverb: ""
+  },
+  {
+    id: 141,
+    proverb: ""
+  },
+  {
+    id: 142,
+    proverb: ""
+  },
+  {
+    id: 143,
+    proverb: ""
+  },
+  {
+    id: 144,
+    proverb: ""
+  },
+  {
+    id: 145,
+    proverb: ""
+  },
+  {
+    id: 146,
+    proverb: ""
+  },
+  {
+    id: 147,
+    proverb: ""
+  },
+  {
+    id: 148,
+    proverb: ""
+  },
+  {
+    id: 149,
+    proverb: ""
+  },
+  {
+    id: 150,
+    proverb: ""
+  },
+  {
+    id: 151,
+    proverb: ""
+  },
+  {
+    id: 152,
+    proverb: ""
+  },
+  {
+    id: 153,
+    proverb: ""
+  },
+  {
+    id: 154,
+    proverb: ""
+  },
+  {
+    id: 155,
+    proverb: ""
+  },
+  {
+    id: ,
     proverb: ""
   },
 ];
