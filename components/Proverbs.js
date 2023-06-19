@@ -1316,286 +1316,320 @@ const PROVERBS = [
   },
   {
     id: 329,
-    proverb: ""
+    proverb: "It is not good to be partial to the wicked and so deprive the innocent of justice."
   },
   {
     id: 330,
-    proverb: ""
+    proverb: "The lips of fools bring them strife, and their mouths invite a beating."
   },
   {
     id: 331,
-    proverb: ""
+    proverb: "The mouths of fools are their undoing, and their lips are a snare to their very lives."
   },
   {
     id: 332,
-    proverb: ""
+    proverb: "The words of a gossip are like choice morsels; they go down to the inmost parts."
   },
   {
     id: 333,
-    proverb: ""
+    proverb: "One who is slack in his work is brother to one who destroys."
   },
   {
     id: 334,
-    proverb: ""
+    proverb: "The name of the Lord is a fortified tower; the righteous run to it and are safe."
   },
   {
     id: 335,
-    proverb: ""
+    proverb: "The wealth of the rich is their fortified city; they imagine it a wall too high to scale."
   },
   {
     id: 336,
-    proverb: ""
+    proverb: "Before a downfall the heart is haughty, but humility comes before honor."
   },
   {
     id: 337,
-    proverb: ""
+    proverb: "To answer before listening— that is folly and shame."
   },
   {
     id: 338,
-    proverb: ""
+    proverb: "The human spirit can endure in sickness, but a crushed spirit who can bear?"
   },
   {
     id: 339,
-    proverb: ""
+    proverb: "The heart of the discerning acquires knowledge, for the ears of the wise seek it out."
   },
   {
     id: 340,
-    proverb: ""
+    proverb: "A gift opens the way and ushers the giver into the presence of the great."
   },
   {
     id: 341,
-    proverb: ""
+    proverb: "In a lawsuit the first to speak seems right, until someone comes forward and cross- examines."
   },
   {
     id: 342,
+    proverb: "Casting the lot settles disputes and keeps strong opponents apart."
+  },
+  {
+    id: 343,
+    proverb: "A brother wronged is more unyielding than a fortified city; disputes are like the barred gates of a citadel."
+  },
+  {
+    id: 344,
+    proverb: "From the fruit of their mouth a person's stomach is filled; with the harvest of their lips they are satisfied."
+  },
+  {
+    id: 345,
+    proverb: "The tongue has the power of life and death, and those who love it will eat its fruit."
+  },
+  {
+    id: 346,
+    proverb: "He who finds a wife finds what is good and receives favor from the Lord."
+  },
+  {
+    id: 347,
+    proverb: "The poor plead for mercy, but the rich answer harshly."
+  },
+  {
+    id: 348,
+    proverb: "One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother."
+  },
+  {
+    id: 349,
+    proverb: "Better the poor whose walk is blameless than a fool whose lips are perverse."
+  },
+  {
+    id: 350,
+    proverb: "Desire without knowledge is not good— how much more will hasty feet miss the way!"
+  },
+  {
+    id: 351,
+    proverb: "A person's own folly leads to their ruin, yet their heart rages against the Lord."
+  },
+  {
+    id: 352,
+    proverb: "Wealth attracts many friends, but even the closest friend of the poor person deserts them."
+  },
+  {
+    id: 353,
+    proverb: "A false witness will not go unpunished, and whoever pours out lies will not go free."
+  },
+  {
+    id: 354,
+    proverb: "Many curry favor with a ruler, and everyone is the friend of one who gives gifts."
+  },
+  {
+    id: 355,
+    proverb: "The poor are shunned by all their relatives— how much more do their friends avoid them! Though the poor pursue them with pleading, they are nowhere to be found."
+  },
+  {
+    id: 356,
+    proverb: "The one who gets wisdom loves life; the one who cherishes understanding will soon prosper."
+  },
+  {
+    id: 357,
+    proverb: "A false witness will not go unpunished, and whoever pours out lies will perish."
+  },
+  {
+    id: 358,
+    proverb: "It is not fitting for a fool to live in luxury— how much worse for a slave to rule over princes!"
+  },
+  {
+    id: 359,
+    proverb: "A person's wisdom yields patience; it is to one's glory to overlook an offense."
+  },
+  {
+    id: 360,
+    proverb: "A king's rage is like the roar of a lion, but his favor is like dew on the grass."
+  },
+  {
+    id: 361,
+    proverb: "A foolish child is a father's ruin, and a quarrelsome wife is like the constant dripping of a leaky roof."
+  },
+  {
+    id: 362,
+    proverb: "Houses and wealth are inherited from parents, but a prudent wife is from the Lord."
+  },
+  {
+    id: 363,
+    proverb: "Laziness brings on deep sleep, and the shiftless go hungry."
+  },
+  {
+    id: 364,
+    proverb: "Whoever keeps commandments keeps their life, but whoever shows contempt for their ways will die."
+  },
+  {
+    id: 365,
+    proverb: "Whoever is kind to the poor lends to the Lord, and he will reward them for what they have done."
+  },
+  {
+    id: 366,
+    proverb: "Discipline your children, for in that there is hope; do not be a willing party to their death."
+  },
+  {
+    id: 367,
+    proverb: "A hot-tempered person must pay the penalty; rescue them, and you will have to do it again."
+  },
+  {
+    id: 368,
     proverb: ""
   },
   {
-    id: 3,
+    id: 369,
     proverb: ""
   },
   {
-    id: ,
+    id: 370,
     proverb: ""
   },
   {
-    id: ,
+    id: 371,
     proverb: ""
   },
   {
-    id: ,
+    id: 372,
     proverb: ""
   },
   {
-    id: ,
+    id: 373,
     proverb: ""
   },
   {
-    id: ,
+    id: 374,
     proverb: ""
   },
   {
-    id: ,
+    id: 375,
     proverb: ""
   },
   {
-    id: ,
+    id: 376,
     proverb: ""
   },
   {
-    id: ,
+    id: 377,
     proverb: ""
   },
   {
-    id: ,
+    id: 378,
     proverb: ""
   },
   {
-    id: ,
+    id: 379,
     proverb: ""
   },
   {
-    id: ,
+    id: 380,
     proverb: ""
   },
   {
-    id: ,
+    id: 381,
     proverb: ""
   },
   {
-    id: ,
+    id: 382,
     proverb: ""
   },
   {
-    id: ,
+    id: 383,
     proverb: ""
   },
   {
-    id: ,
+    id: 384,
     proverb: ""
   },
   {
-    id: ,
+    id: 385,
     proverb: ""
   },
   {
-    id: ,
+    id: 386,
     proverb: ""
   },
   {
-    id: ,
+    id: 387,
     proverb: ""
   },
   {
-    id: ,
+    id: 388,
     proverb: ""
   },
   {
-    id: ,
+    id: 389,
     proverb: ""
   },
   {
-    id: ,
+    id: 390,
     proverb: ""
   },
   {
-    id: ,
+    id: 391,
     proverb: ""
   },
   {
-    id: ,
+    id: 392,
     proverb: ""
   },
   {
-    id: ,
+    id: 393,
     proverb: ""
   },
   {
-    id: ,
+    id: 394,
     proverb: ""
   },
   {
-    id: ,
+    id: 395,
     proverb: ""
   },
   {
-    id: ,
+    id: 396,
     proverb: ""
   },
   {
-    id: ,
+    id: 397,
     proverb: ""
   },
   {
-    id: ,
+    id: 398,
     proverb: ""
   },
   {
-    id: ,
+    id: 399,
     proverb: ""
   },
   {
-    id: ,
+    id: 400,
     proverb: ""
   },
   {
-    id: ,
+    id: 401,
     proverb: ""
   },
   {
-    id: ,
+    id: 402,
     proverb: ""
   },
   {
-    id: ,
+    id: 403,
     proverb: ""
   },
   {
-    id: ,
+    id: 404,
     proverb: ""
   },
   {
-    id: ,
+    id: 405,
     proverb: ""
   },
   {
-    id: ,
+    id: 406,
     proverb: ""
   },
   {
-    id: ,
+    id: 407,
     proverb: ""
   },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
-  {
-    id: ,
-    proverb: ""
-  },
+
+
 ];
