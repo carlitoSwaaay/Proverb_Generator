@@ -1300,19 +1300,19 @@ const PROVERBS = [
   /*Proverbs 18 vv */
   {
     id: 325,
-    proverb: ""
+    proverb: "An unfriendly person pursues selfish ends and against all sound judgment starts quarrels."
   },
   {
     id: 326,
-    proverb: ""
+    proverb: "Fools find no pleasure in understanding but delight in airing their own opinions."
   },
   {
     id: 327,
-    proverb: ""
+    proverb: "When wickedness comes, so does contempt, and with shame comes reproach."
   },
   {
     id: 328,
-    proverb: ""
+    proverb: "The words of the mouth are deep waters, but the fountain of wisdom is a rushing stream."
   },
   {
     id: 329,
