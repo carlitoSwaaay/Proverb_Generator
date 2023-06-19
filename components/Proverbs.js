@@ -1472,87 +1472,87 @@ const PROVERBS = [
   },
   {
     id: 368,
-    proverb: ""
+    proverb: "Listen to advice and accept discipline, and at the end you will be counted among the wise."
   },
   {
     id: 369,
-    proverb: ""
+    proverb: "Many are the plans in a person's heart, but it is the Lord's purpose that prevails."
   },
   {
     id: 370,
-    proverb: ""
+    proverb: "What a person desires is unfailing love; better to be poor than a liar."
   },
   {
     id: 371,
-    proverb: ""
+    proverb: "The fear of the Lord leads to life; then one rests content, untouched by trouble."
   },
   {
     id: 372,
-    proverb: ""
+    proverb: "A sluggard buries his hand in the dish; he will not even bring it back to his mouth!"
   },
   {
     id: 373,
-    proverb: ""
+    proverb: "Flog a mocker, and the simple will learn prudence; rebuke the discerning, and they will gain knowledge."
   },
   {
     id: 374,
-    proverb: ""
+    proverb: "Whoever robs their father and drives out their mother is a child who brings shame and disgrace."
   },
   {
     id: 375,
-    proverb: ""
+    proverb: "Stop listening to instruction, my son, and you will stray from the words of knowledge."
   },
   {
     id: 376,
-    proverb: ""
+    proverb: "A corrupt witness mocks at justice, and the mouth of the wicked gulps down evil."
   },
   {
     id: 377,
-    proverb: ""
+    proverb: "Penalties are prepared for mockers, and beatings for the backs of fools."
   },
   {
     id: 378,
-    proverb: ""
+    proverb: "Wine is a mocker and beer a brawler; whoever is led astray by them is not wise."
   },
   {
     id: 379,
-    proverb: ""
+    proverb: "A king's wrath strikes terror like the roar of a lion; those who anger him forfeit their lives."
   },
   {
     id: 380,
-    proverb: ""
+    proverb: "It is to one's honor to avoid strife, but every fool is quick to quarrel."
   },
   {
     id: 381,
-    proverb: ""
+    proverb: "Sluggards do not plow in season; so at harvest time they look but find nothing."
   },
   {
     id: 382,
-    proverb: ""
+    proverb: "The purposes of a person's heart are deep waters, but one who has insight draws them out."
   },
   {
     id: 383,
-    proverb: ""
+    proverb: "Many claim to have unfailing love, but a faithful person who can find?"
   },
   {
     id: 384,
-    proverb: ""
+    proverb: "The righteous lead blameless lives; blessed are their children after them."
   },
   {
     id: 385,
-    proverb: ""
+    proverb: "When a king sits on his throne to judge, he winnows out all evil with his eyes."
   },
   {
     id: 386,
-    proverb: ""
+    proverb: "Who can say, “I have kept my heart pure; I am clean and without sin”?"
   },
   {
     id: 387,
-    proverb: ""
+    proverb: "Differing weights and differing measures— the Lord detests them both."
   },
   {
     id: 388,
-    proverb: ""
+    proverb: "Even small children are known by their actions, so is their conduct really pure and upright?"
   },
   {
     id: 389,
