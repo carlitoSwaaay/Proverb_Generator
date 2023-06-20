@@ -2346,6 +2346,236 @@ const PROVERBS = [
     id: 586,
     proverb: "Whoever rebukes a person will in the end gain favor rather than one who has a flattering tongue."
   },
-
-
+  {
+    id: 587,
+    proverb: "Whoever robs their father or mother and says, “It's not wrong,” is partner to one who destroys."
+  },
+  {
+    id: 588,
+    proverb: "The greedy stir up conflict, but those who trust in the Lord will prosper."
+  },
+  {
+    id: 589,
+    proverb: "Those who trust in themselves are fools, but those who walk in wisdom are kept safe."
+  },
+  {
+    id: 590,
+    proverb: "Those who give to the poor will lack nothing, but those who close their eyes to them receive many curses."
+  },
+  {
+    id: 591,
+    proverb: "When the wicked rise to power, people go into hiding; but when the wicked perish, the righteous thrive."
+  },
+  {
+    id: 592,
+    proverb: "Whoever remains stiff-necked after many rebukes will suddenly be destroyed—without remedy."
+  },
+  {
+    id: 593,
+    proverb: "When the righteous thrive, the people rejoice; when the wicked rule, the people groan."
+  },
+  {
+    id: 594,
+    proverb: "A man who loves wisdom brings joy to his father, but a companion of prostitutes squanders his wealth."
+  },
+  {
+    id: 595,
+    proverb: "By justice a king gives a country stability, but those who are greedy for bribes tear it down."
+  },
+  {
+    id: 596,
+    proverb: "Those who flatter their neighbors are spreading nets for their feet."
+  },
+  {
+    id: 597,
+    proverb: "Evildoers are snared by their own sin, but the righteous shout for joy and are glad."
+  },
+  {
+    id: 598,
+    proverb: "The righteous care about justice for the poor, but the wicked have no such concern."
+  },
+  {
+    id: 599,
+    proverb: "Mockers stir up a city, but the wise turn away anger."
+  },
+  {
+    id: 600,
+    proverb: "If a wise person goes to court with a fool, the fool rages and scoffs, and there is no peace."
+  },
+  {
+    id: 601,
+    proverb: "The bloodthirsty hate a person of integrity and seek to kill the upright."
+  },
+  {
+    id: 602,
+    proverb: "Fools give full vent to their rage, but the wise bring calm in the end."
+  },
+  {
+    id: 603,
+    proverb: "If a ruler listens to lies, all his officials become wicked."
+  },
+  {
+    id: 604,
+    proverb: "The poor and the oppressor have this in common: The Lord gives sight to the eyes of both."
+  },
+  {
+    id: 605,
+    proverb: "If a king judges the poor with fairness, his throne will be established forever."
+  },
+  {
+    id: 606,
+    proverb: "A rod and a reprimand impart wisdom, but a child left undisciplined disgraces its mother."
+  },
+  {
+    id: 607,
+    proverb: "When the wicked thrive, so does sin, but the righteous will see their downfall."
+  },
+  {
+    id: 608,
+    proverb: "Discipline your children, and they will give you peace; they will bring you the delights you desire."
+  },
+  {
+    id: 609,
+    proverb: "Where there is no revelation, people cast off restraint; but blessed is the one who heeds wisdom's instruction."
+  },
+  {
+    id: 610,
+    proverb: "Servants cannot be corrected by mere words; though they understand, they will not respond."
+  },
+  {
+    id: 611,
+    proverb: "Do you see someone who speaks in haste? There is more hope for a fool than for them."
+  },
+  {
+    id: 612,
+    proverb: "A servant pampered from youth will turn out to be insolent."
+  },
+  {
+    id: 613,
+    proverb: "An angry person stirs up conflict, and a hot- tempered person commits many sins."
+  },
+  {
+    id: 614,
+    proverb: "Pride brings a person low, but the lowly in spirit gain honor."
+  },
+  {
+    id: 615,
+    proverb: "The accomplices of thieves are their own enemies; they are put under oath and dare not testify."
+  },
+  {
+    id: 616,
+    proverb: "Fear of man will prove to be a snare, but whoever trusts in the Lord is kept safe."
+  },
+  {
+    id: 617,
+    proverb: "Many seek an audience with a ruler, but it is from the Lord that one gets justice."
+  },
+  {
+    id: 618,
+    proverb: "The righteous detest the dishonest; the wicked detest the upright."
+  },
+  {
+    id: 619,
+    proverb: "“I am weary, God, but I can prevail. Surely I am only a brute, not a man; I do not have human understanding. I have not learned wisdom, nor have I attained to the knowledge of the Holy One. Who has gone up to heaven and come down? Whose hands have gathered up the wind? Who has wrapped up the waters in a cloak? Who has established all the ends of the earth? What is his name, and what is the name of his son? Surely you know!"
+  },
+  {
+    id: 620,
+    proverb: "“Every word of God is flawless; he is a shield to those who take refuge in him. Do not add to his words, or he will rebuke you and prove you a liar."
+  },
+  {
+    id: 621,
+    proverb: "“Two things I ask of you, Lord; do not refuse me before I die: Keep falsehood and lies far from me; give me neither poverty nor riches, but give me only my daily bread. Otherwise, I may have too much and disown you and say, ‘Who is the Lord?’ Or I may become poor and steal, and so dishonor the name of my God."
+  },
+  {
+    id: 622,
+    proverb: "“Do not slander a servant to their master, or they will curse you, and you will pay for it."
+  },
+  {
+    id: 623,
+    proverb: "“There are those who curse their fathers and do not bless their mothers; those who are pure in their own eyes and yet are not cleansed of their filth; those whose eyes are ever so haughty, whose glances are so disdainful; those whose teeth are swords and whose jaws are set with knives to devour the poor from the earth and the needy from among mankind."
+  },
+  {
+    id: 624,
+    proverb: "“The leech has two daughters. 'Give! Give!' they cry. “There are three things that are never satisfied, four that never say, 'Enough!': the grave, the barren womb, land, which is never satisfied with water, and fire, which never says, 'Enough!'"
+  },
+  {
+    id: 625,
+    proverb: "“The eye that mocks a father, that scorns an aged mother, will be pecked out by the ravens of the valley, will be eaten by the vultures."
+  },
+  {
+    id: 626,
+    proverb: "“There are three things that are too amazing for me, four that I do not understand: the way of an eagle in the sky, the way of a snake on a rock, the way of a ship on the high seas, and the way of a man with a young woman."
+  },
+  {
+    id: 627,
+    proverb: "“This is the way of an adulterous woman: She eats and wipes her mouth and says, 'I've done nothing wrong.'"
+  },
+  {
+    id: 628,
+    proverb: "“Under three things the earth trembles, under four it cannot bear up: a servant who becomes king, a godless fool who gets plenty to eat, a contemptible woman who gets married, and a servant who displaces her mistress."
+  },
+  {
+    id: 629,
+    proverb: "“Four things on earth are small, yet they are extremely wise: Ants are creatures of little strength, yet they store up their food in the summer; hyraxes are creatures of little power, yet they make their home in the crags; locusts have no king, yet they advance together in ranks; a lizard can be caught with the hand, yet it is found in kings' palaces."
+  },
+  {
+    id: 630,
+    proverb: "“There are three things that are stately in their stride, four that move with stately bearing: a lion, mighty among beasts, who retreats before nothing; a strutting rooster, a he-goat, and a king secure against revolt."
+  },
+  {
+    id: 631,
+    proverb: "“If you play the fool and exalt yourself, or if you plan evil, clap your hand over your mouth! For as churning cream produces butter, and as twisting the nose produces blood, so stirring up anger produces strife."
+  },
+  {
+    id: 632,
+    proverb: "Listen, my son! Listen, son of my womb! Listen, my son, the answer to my prayers! Do not spend your strength on women, your vigor on those who ruin kings."
+  },
+  {
+    id: 633,
+    proverb: "It is not for kings, Lemuel— it is not for kings to drink wine, not for rulers to crave beer, lest they drink and forget what has been decreed, and deprive all the oppressed of their rights. Let beer be for those who are perishing, wine for those who are in anguish! Let them drink and forget their poverty and remember their misery no more."
+  },
+  {
+    id: 634,
+    proverb: "Speak up for those who cannot speak for themselves, for the rights of all who are destitute. Speak up and judge fairly; defend the rights of the poor and needy."
+  },
+  {
+    id: 635,
+    proverb: "A wife of noble character who can find? She is worth far more than rubies. Her husband has full confidence in her and lacks nothing of value. She brings him good, not harm, all the days of her life."
+  },
+  {
+    id: 636,
+    proverb: "She [wife of noble character] selects wool and flax and works with eager hands. She is like the merchant ships, bringing her food from afar."
+  },
+  {
+    id: 637,
+    proverb: "She [wife of noble character] gets up while it is still night; she provides food for her family and portions for her female servants. She considers a field and buys it; out of her earnings she plants a vineyard."
+  },
+  {
+    id: 638,
+    proverb: "She [wife of noble character] sets about her work vigorously; her arms are strong for her tasks. She sees that her trading is profitable, and her lamp does not go out at night."
+  },
+  {
+    id: 639,
+    proverb: "In her [wife of noble character] hand she holds the distaff and grasps the spindle with her fingers. She opens her arms to the poor and extends her hands to the needy."
+  },
+  {
+    id: 640,
+    proverb: "When it snows, she [wife of noble character] has no fear for her household; for all of them are clothed in scarlet. She makes coverings for her bed; she is clothed in fine linen and purple."
+  },
+  {
+    id: 641,
+    proverb: "Her [wife of noble character] husband is respected at the city gate, where he takes his seat among the elders of the land. She makes linen garments and sells them, and supplies the merchants with sashes."
+  },
+  {
+    id: 642,
+    proverb: "She [wife of noble character] is clothed with strength and dignity; she can laugh at the days to come. She speaks with wisdom, and faithful instruction is on her tongue."
+  },
+  {
+    id: 643,
+    proverb: "She [wife of noble character] watches over the affairs of her household and does not eat the bread of idleness. Her children arise and call her blessed; her husband also, and he praises her: “Many women do noble things, but you surpass them all.”"
+  },
+  {
+    id: 644,
+    proverb: "Charm is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised. Honor her for all that her hands have done, and let her works bring her praise at the city gate."
+  },
 ];
