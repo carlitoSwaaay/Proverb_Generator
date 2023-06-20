@@ -1808,16 +1808,36 @@ const PROVERBS = [
   },
   {
     id: 452,
-    proverb: "The mouth of an adulterous woman is a deep pit; a man who is under the Lord’s wrath falls into it."
+    proverb: "The mouth of an adulterous woman is a deep pit; a man who is under the Lord's wrath falls into it."
   },
-
-
-
-
-
-
-
-
+  {
+    id: 453,
+    proverb: "Folly is bound up in the heart of a child, but the rod of discipline will drive it far away."
+  },
+  {
+    id: 454,
+    proverb: "One who oppresses the poor to increase his wealth and one who gives gifts to the rich— both come to poverty."
+  },
+  {
+    id: 455,
+    proverb: "Pay attention and turn your ear to the sayings of the wise; apply your heart to what I teach. for it is pleasing when you keep them in your heart and have all of them ready on your lips. So that your trust may be in the Lord, I teach you today, even you."
+  },
+  {
+    id: 456,
+    proverb: ""
+  },
+  {
+    id: 457,
+    proverb: ""
+  },
+  {
+    id: 458,
+    proverb: ""
+  },
+  {
+    id: 459,
+    proverb: ""
+  },
 
 
 ];
