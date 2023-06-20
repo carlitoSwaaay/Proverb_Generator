@@ -2326,6 +2326,19 @@ const PROVERBS = [
     id: 581,
     proverb: "The one whose walk is blameless is kept safe, but the one whose ways are perverse will fall into the pit."
   },
+  {
+    id: 582,
+    proverb: "Those who work their land will have abundant food, but those who chase fantasies will have their fill of poverty."
+  },
+  {
+    id: 583,
+    proverb: "A faithful person will be richly blessed, but one eager to get rich will not go unpunished."
+  },
+  {
+    id: 584,
+    proverb: "To show partiality is not good— yet a person will do wrong for a piece of bread."
+  },
+
 
 
 
