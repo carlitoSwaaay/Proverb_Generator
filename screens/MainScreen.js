@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity } from 'react-native';
 import Logo from '../components/Logo';
-import Title from '../ui/Title';
+import PrimaryButton from '../ui/PrimaryButton';
 
 const MainScreen = () => {
 
@@ -12,9 +12,9 @@ const MainScreen = () => {
         <Logo />
       </View>
       <View>
-        <Title>
-          <Text style={styles.title}>Daily Proverb</Text>
-        </Title>
+        <PrimaryButton>
+          <Text style={styles.primaryButton}>Daily Proverb</Text>
+        </PrimaryButton>
       </View>
     </View>
 
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#f8f8f8',
   },
-  title: {
+  primaryButton: {
     fontFamily: Platform.select({ ios: 'Avenir', android: 'Roboto' }),
     fontSize: 26,
     fontWeight: 'bold',
