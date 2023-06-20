@@ -1,17 +1,20 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity } from 'react-native';
+import Logo from '../components/Logo';
 import Title from '../ui/Title';
 
 const MainScreen = () => {
 
 
   return (
-    <View style={styles.container}>
-      <View>
-        <Image source={require('../assets/testPic.png')} />
+    <View >
+      <View >
+        <Logo />
       </View>
       <View>
-        <Title>Daily Proverb</Title>
+        <Title>
+          <Text style={styles.title}>Daily Proverb</Text>
+        </Title>
       </View>
     </View>
 
@@ -23,19 +26,19 @@ export default MainScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 100,
+    padding: 36,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f8f8f8',
   },
-  // imageContainer: {
-  //   borderWidth: 3,
-  //   borderColor: '#f8f8f8',
-  //   overflow: 'hidden',
-  //   margin: 36,
-  // },
-  // image: {
-  //   width: '100%',
-  //   height: '100%',
-  // },
+  title: {
+    fontFamily: Platform.select({ ios: 'Avenir', android: 'Roboto' }),
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: 'black',
+    textAlign: 'center',
+    borderWidth: Platform.select({ ios: 0, android: .5 }),
+    borderRadius: 20,
+    padding: 12,
+  },
 })
