@@ -1556,80 +1556,118 @@ const PROVERBS = [
   },
   {
     id: 389,
-    proverb: ""
+    proverb: "Ears that hear and eyes that see— the Lord has made them both."
   },
   {
     id: 390,
-    proverb: ""
+    proverb: "Do not love sleep or you will grow poor; stay awake and you will have food to spare."
   },
   {
     id: 391,
-    proverb: ""
+    proverb: "“It's no good, it's no good!” says the buyer— then goes off and boasts about the purchase."
   },
   {
     id: 392,
-    proverb: ""
+    proverb: "Gold there is, and rubies in abundance, but lips that speak knowledge are a rare jewel."
   },
   {
     id: 393,
-    proverb: ""
+    proverb: "Take the garment of one who puts up security for a stranger; hold it in pledge if it is done for an outsider."
   },
   {
     id: 394,
-    proverb: ""
+    proverb: "Food gained by fraud tastes sweet, but one ends up with a mouth full of gravel."
   },
   {
     id: 395,
-    proverb: ""
+    proverb: "Plans are established by seeking advice; so if you wage war, obtain guidance."
   },
   {
     id: 396,
-    proverb: ""
+    proverb: "A gossip betrays a confidence; so avoid anyone who talks too much."
   },
   {
     id: 397,
-    proverb: ""
+    proverb: "If someone curses their father or mother, their lamp will be snuffed out in pitch darkness."
   },
   {
     id: 398,
-    proverb: ""
+    proverb: "An inheritance claimed too soon will not be blessed at the end."
   },
   {
     id: 399,
-    proverb: ""
+    proverb: "Do not say, “I'll pay you back for this wrong!” Wait for the Lord, and he will avenge you."
   },
   {
     id: 400,
-    proverb: ""
+    proverb: "The Lord detests differing weights, and dishonest scales do not please him."
   },
   {
     id: 401,
-    proverb: ""
+    proverb: "A person's steps are directed by the Lord. How then can anyone understand their own way?"
   },
   {
     id: 402,
-    proverb: ""
+    proverb: "It is a trap to dedicate something rashly and only later to consider one's vows."
   },
   {
     id: 403,
-    proverb: ""
+    proverb: "A wise king winnows out the wicked; he drives the threshing wheel over them."
   },
   {
     id: 404,
-    proverb: ""
+    proverb: "The human spirit is the lamp of the Lord that sheds light on one’s inmost being."
   },
   {
     id: 405,
-    proverb: ""
+    proverb: "Love and faithfulness keep a king safe; through love his throne is made secure."
   },
   {
     id: 406,
-    proverb: ""
+    proverb: "The glory of young men is their strength, gray hair the splendor of the old."
   },
   {
     id: 407,
-    proverb: ""
+    proverb: "Blows and wounds scrub away evil, and beatings purge the inmost being."
   },
+  {
+    id: 408,
+    proverb: "In the Lord's hand the king's heart is a stream of water that he channels toward all who please him."
+  },
+  {
+    id: 409,
+    proverb: "A person may think their own ways are right, but the Lord weighs the heart."
+  },
+  {
+    id: 410,
+    proverb: "To do what is right and just is more acceptable to the Lord than sacrifice."
+  },
+  {
+    id: 411,
+    proverb: "Haughty eyes and a proud heart— the unplowed field of the wicked— produce sin."
+  },
+  {
+    id: 412,
+    proverb: "The plans of the diligent lead to profit as surely as haste leads to poverty."
+  },
+  {
+    id: 413,
+    proverb: "A fortune made by a lying tongue is a fleeting vapor and a deadly snare."
+  },
+  {
+    id: 414,
+    proverb: "The violence of the wicked will drag them away, for they refuse to do what is right."
+  },
+  {
+    id: 415,
+    proverb: "The way of the guilty is devious, but the conduct of the innocent is upright."
+  },
+  {
+    id: 416,
+    proverb: "Better to live on a corner of the roof than share a house with a quarrelsome wife."
+  },
+
+
 
 
 ];
