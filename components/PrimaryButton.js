@@ -1,14 +1,36 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Pressable } from 'react-native'
 
-const PrimaryButton = () => {
+
+const PrimaryButton = ({ children, onPress }) => {
+
   return (
     <View>
-      <Text>Primary</Text>
+      <Pressable>
+        <Text>{children}</Text>
+      </Pressable>
     </View>
-  )
-}
+  );
+};
 
-export default PrimaryButton
+export default PrimaryButton;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  buttonOuterContainer: {
+    borderRadius: 28,
+    margin: 4,
+    overflow: 'hidden',
+  },
+  buttonInnerContainer: {
+    backgroundColor: 'green' /* add color file */,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    elevation: 2,
+  },
+  buttonText: {
+    color: 'white',
+    textAlign: 'center',
+  },
+  pressed: {
+    opacity: 0.75,
+  },
+});
