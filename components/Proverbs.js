@@ -1976,8 +1976,356 @@ const PROVERBS = [
   },
   {
     id: 494,
-    proverb: "" /* proverb 25 vv */
-
+    proverb: "It is the glory of God to conceal a matter; to search out a matter is the glory of kings."
+  },
+  {
+    id: 495,
+    proverb: "As the heavens are high and the earth is deep, so the hearts of kings are unsearchable."
+  },
+  {
+    id: 496,
+    proverb: "Remove the dross from the silver, and a silversmith can produce a vessel; remove wicked officials from the king's presence, and his throne will be established through righteousness."
+  },
+  {
+    id: 497,
+    proverb: "Do not exalt yourself in the king's presence, and do not claim a place among his great men; it is better for him to say to you, “Come up here,” than for him to humiliate you before his nobles."
+  },
+  {
+    id: 498,
+    proverb: "What you have seen with your eyes do not bring hastily to court, for what will you do in the end if your neighbor puts you to shame?"
+  },
+  {
+    id: 499,
+    proverb: "If you take your neighbor to court, do not betray another's confidence, or the one who hears it may shame you and the charge against you will stand."
+  },
+  {
+    id: 500,
+    proverb: "Like apples of gold in settings of silver is a ruling rightly given. Like an earring of gold or an ornament of fine gold is the rebuke of a wise judge to a listening ear."
+  },
+  {
+    id: 501,
+    proverb: "Like a snow-cooled drink at harvest time is a trustworthy messenger to the one who sends him; he refreshes the spirit of his master. Like clouds and wind without rain is one who boasts of gifts never given."
+  },
+  {
+    id: 502,
+    proverb: "Through patience a ruler can be persuaded, and a gentle tongue can break a bone."
+  },
+  {
+    id: 503,
+    proverb: "If you find honey, eat just enough— too much of it, and you will vomit. Seldom set foot in your neighbor's house— too much of you, and they will hate you."
+  },
+  {
+    id: 504,
+    proverb: "Like a club or a sword or a sharp arrow is one who gives false testimony against a neighbor."
+  },
+  {
+    id: 505,
+    proverb: "Like a broken tooth or a lame foot is reliance on the unfaithful in a time of trouble."
+  },
+  {
+    id: 506,
+    proverb: "Like one who takes away a garment on a cold day, or like vinegar poured on a wound, is one who sings songs to a heavy heart."
+  },
+  {
+    id: 507,
+    proverb: "If your enemy is hungry, give him food to eat; if he is thirsty, give him water to drink. In doing this, you will heap burning coals on his head, and the Lord will reward you."
+  },
+  {
+    id: 508,
+    proverb: "Like a north wind that brings unexpected rain is a sly tongue—which provokes a horrified look."
+  },
+  {
+    id: 509,
+    proverb: "Better to live on a corner of the roof than share a house with a quarrelsome wife."
+  },
+  {
+    id: 510,
+    proverb: "Like cold water to a weary soul is good news from a distant land."
+  },
+  {
+    id: 511,
+    proverb: "Like a muddied spring or a polluted well are the righteous who give way to the wicked."
+  },
+  {
+    id: 512,
+    proverb: "It is not good to eat too much honey, nor is it honorable to search out matters that are too deep."
+  },
+  {
+    id: 513,
+    proverb: "Like a city whose walls are broken through is a person who lacks self-control."
+  },
+  {
+    id: 514,
+    proverb: "Like snow in summer or rain in harvest, honor is not fitting for a fool."
+  },
+  {
+    id: 515,
+    proverb: "Like a fluttering sparrow or a darting swallow, an undeserved curse does not come to rest."
+  },
+  {
+    id: 516,
+    proverb: "A whip for the horse, a bridle for the donkey, and a rod for the backs of fools!"
+  },
+  {
+    id: 517,
+    proverb: "Do not answer a fool according to his folly, or you yourself will be just like him. Answer a fool according to his folly, or he will be wise in his own eyes."
+  },
+  {
+    id: 518,
+    proverb: "Sending a message by the hands of a fool is like cutting off one's feet or drinking poison."
+  },
+  {
+    id: 519,
+    proverb: "Like the useless legs of one who is lame is a proverb in the mouth of a fool."
+  },
+  {
+    id: 520,
+    proverb: "Like tying a stone in a sling is the giving of honor to a fool."
+  },
+  {
+    id: 521,
+    proverb: "Like a thornbush in a drunkard's hand is a proverb in the mouth of a fool."
+  },
+  {
+    id: 522,
+    proverb: "Like an archer who wounds at random is one who hires a fool or any passer-by."
+  },
+  {
+    id: 523,
+    proverb: "As a dog returns to its vomit, so fools repeat their folly."
+  },
+  {
+    id: 524,
+    proverb: "Do you see a person wise in their own eyes? There is more hope for a fool than for them."
+  },
+  {
+    id: 525,
+    proverb: "A sluggard says, “There's a lion in the road, a fierce lion roaming the streets!”"
+  },
+  {
+    id: 526,
+    proverb: "As a door turns on its hinges, so a sluggard turns on his bed."
+  },
+  {
+    id: 527,
+    proverb: "A sluggard buries his hand in the dish; he is too lazy to bring it back to his mouth."
+  },
+  {
+    id: 528,
+    proverb: "The sluggard is wiser in his own eyes than seven people who answer discreetly."
+  },
+  {
+    id: 529,
+    proverb: "Like one who grabs a stray dog by the ears is someone who rushes into a quarrel not their own."
+  },
+  {
+    id: 530,
+    proverb: "Like a maniac shooting flaming arrows of death is one who deceives their neighbor and says, “I was only joking!”"
+  },
+  {
+    id: 531,
+    proverb: "Without wood a fire goes out; without a gossip a quarrel dies down."
+  },
+  {
+    id: 532,
+    proverb: "As charcoal to embers and as wood to fire, so is a quarrelsome person for kindling strife."
+  },
+  {
+    id: 533,
+    proverb: "The words of a gossip are like choice morsels; they go down to the inmost parts."
+  },
+  {
+    id: 534,
+    proverb: "Like a coating of silver dross on earthenware are fervent lips with an evil heart."
+  },
+  {
+    id: 535,
+    proverb: "Enemies disguise themselves with their lips, but in their hearts they harbor deceit."
+  },
+  {
+    id: 536,
+    proverb: "Though their speech is charming, do not believe them, for seven abominations fill their hearts."
+  },
+  {
+    id: 537,
+    proverb: "Their malice may be concealed by deception, but their wickedness will be exposed in the assembly."
+  },
+  {
+    id: 538,
+    proverb: "Whoever digs a pit will fall into it; if someone rolls a stone, it will roll back on them."
+  },
+  {
+    id: 539,
+    proverb: "A lying tongue hates those it hurts, and a flattering mouth works ruin."
+  },
+  {
+    id: 540,
+    proverb: "Do not boast about tomorrow, for you do not know what a day may bring."
+  },
+  {
+    id: 541,
+    proverb: "Let someone else praise you, and not your own mouth; an outsider, and not your own lips."
+  },
+  {
+    id: 542,
+    proverb: "Stone is heavy and sand a burden, but a fool’s provocation is heavier than both."
+  },
+  {
+    id: 543,
+    proverb: "Anger is cruel and fury overwhelming, but who can stand before jealousy?"
+  },
+  {
+    id: 544,
+    proverb: "Better is open rebuke than hidden love."
+  },
+  {
+    id: 545,
+    proverb: "Wounds from a friend can be trusted, but an enemy multiplies kisses."
+  },
+  {
+    id: 546,
+    proverb: "One who is full loathes honey from the comb, but to the hungry even what is bitter tastes sweet."
+  },
+  {
+    id: 547,
+    proverb: "Like a bird that flees its nest is anyone who flees from home."
+  },
+  {
+    id: 548,
+    proverb: "Perfume and incense bring joy to the heart, and the pleasantness of a friend springs from their heartfelt advice."
+  },
+  {
+    id: 549,
+    proverb: "Do not forsake your friend or a friend of your family, and do not go to your relative's house when disaster strikes you— better a neighbor nearby than a relative far away."
+  },
+  {
+    id: 550,
+    proverb: "Be wise, my son, and bring joy to my heart; then I can answer anyone who treats me with contempt."
+  },
+  {
+    id: 551,
+    proverb: "The prudent see danger and take refuge, but the simple keep going and pay the penalty."
+  },
+  {
+    id: 552,
+    proverb: "Take the garment of one who puts up security for a stranger; hold it in pledge if it is done for an outsider."
+  },
+  {
+    id: 553,
+    proverb: "If anyone loudly blesses their neighbor early in the morning, it will be taken as a curse."
+  },
+  {
+    id: 554,
+    proverb: "A quarrelsome wife is like the dripping of a leaky roof in a rainstorm; restraining her is like restraining the wind or grasping oil with the hand."
+  },
+  {
+    id: 555,
+    proverb: "As iron sharpens iron, so one person sharpens another."
+  },
+  {
+    id: 556,
+    proverb: "The one who guards a fig tree will eat its fruit, and whoever protects their master will be honored."
+  },
+  {
+    id: 557,
+    proverb: "As water reflects the face, so one's life reflects the heart."
+  },
+  {
+    id: 558,
+    proverb: "Death and Destruction are never satisfied, and neither are human eyes."
+  },
+  {
+    id: 559,
+    proverb: "The crucible for silver and the furnace for gold, but people are tested by their praise."
+  },
+  {
+    id: 560,
+    proverb: "Though you grind a fool in a mortar, grinding them like grain with a pestle, you will not remove their folly from them."
+  },
+  {
+    id: 561,
+    proverb: "Know well the condition of your flocks, give careful attention to your herds;"
+  },
+  {
+    id: 562,
+    proverb: "for riches do not endure forever, and a crown is not secure for all generations."
+  },
+  {
+    id: 563,
+    proverb: "When the hay is removed and new growth appears and the grass from the hills is gathered in, the lambs will provide you with clothing, and the goats with the price of a field. You will have plenty of goats' milk to feed your family and to nourish your female servants."
+  },
+  {
+    id: 564,
+    proverb: "The wicked flee though no one pursues, but the righteous are as bold as a lion."
+  },
+  {
+    id: 565,
+    proverb: "When a country is rebellious, it has many rulers, but a ruler with discernment and knowledge maintains order."
+  },
+  {
+    id: 566,
+    proverb: "A ruler who oppresses the poor is like a driving rain that leaves no crops."
+  },
+  {
+    id: 567,
+    proverb: "Those who forsake instruction praise the wicked, but those who heed it resist them."
+  },
+  {
+    id: 568,
+    proverb: "Evildoers do not understand what is right, but those who seek the LORD understand it fully."
+  },
+  {
+    id: 569,
+    proverb: "Better the poor whose walk is blameless than the rich whose ways are perverse."
+  },
+  {
+    id: 570,
+    proverb: "A discerning son heeds instruction, but a companion of gluttons disgraces his father."
+  },
+  {
+    id: 571,
+    proverb: "Whoever increases wealth by taking interest or profit from the poor amasses it for another, who will be kind to the poor."
+  },
+  {
+    id: 572,
+    proverb: "If anyone turns a deaf ear to my instruction, even their prayers are detestable."
+  },
+  {
+    id: 573,
+    proverb: "Whoever leads the upright along an evil path will fall into their own trap, but the blameless will receive a good inheritance."
+  },
+  {
+    id: 574,
+    proverb: "The rich are wise in their own eyes; one who is poor and discerning sees how deluded they are."
+  },
+  {
+    id: 575,
+    proverb: "When the righteous triumph, there is great elation; but when the wicked rise to power, people go into hiding."
+  },
+  {
+    id: 576,
+    proverb: "Whoever conceals their sins does not prosper, but the one who confesses and renounces them finds mercy."
+  },
+  {
+    id: 577,
+    proverb: "Blessed is the one who always trembles before God, but whoever hardens their heart falls into trouble."
+  },
+  {
+    id: 578,
+    proverb: "Like a roaring lion or a charging bear is a wicked ruler over a helpless people."
+  },
+  {
+    id: 579,
+    proverb: "A tyrannical ruler practices extortion, but one who hates ill-gotten gain will enjoy a long reign."
+  },
+  {
+    id: 580,
+    proverb: "Anyone tormented by the guilt of murder will seek refuge in the grave; let no one hold them back."
+  },
+  {
+    id: 581,
+    proverb: "The one whose walk is blameless is kept safe, but the one whose ways are perverse will fall into the pit."
+  },
 
 
 
