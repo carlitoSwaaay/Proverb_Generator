@@ -1824,20 +1824,161 @@ const PROVERBS = [
   },
   {
     id: 456,
-    proverb: ""
+    proverb: "Have I not written thirty sayings for you, sayings of counsel and knowledge, teaching you to be honest and to speak the truth, so that you bring back truthful reports to those you serve?"
   },
   {
     id: 457,
-    proverb: ""
+    proverb: "Do not exploit the poor because they are poor and do not crush the needy in court, for the Lord will take up their case and will exact life for life."
   },
   {
     id: 458,
-    proverb: ""
+    proverb: "Do not make friends with a hot-tempered person, do not associate with one easily angered, or you may learn their ways and get yourself ensnared."
   },
   {
     id: 459,
-    proverb: ""
+    proverb: "Do not be one who shakes hands in pledge or puts up security for debts; if you lack the means to pay, your very bed will be snatched from under you."
   },
+  {
+    id: 460,
+    proverb: "Do not move an ancient boundary stone set up by your ancestors."
+  },
+  {
+    id: 461,
+    proverb: "Do you see someone skilled in their work? They will serve before kings; they will not serve before officials of low rank."
+  },
+  {
+    id: 462,
+    proverb: "When you sit to dine with a ruler, note well what is before you, and put a knife to your throat if you are given to gluttony. Do not crave his delicacies, for that food is deceptive."
+  },
+  {
+    id: 463,
+    proverb: "Do not wear yourself out to get rich; do not trust your own cleverness. Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle."
+  },
+  {
+    id: 464,
+    proverb: "Do not eat the food of a begrudging host, do not crave his delicacies; for he is the kind of person who is always thinking about the cost. “Eat and drink,” he says to you, but his heart is not with you. You will vomit up the little you have eaten and will have wasted your compliments."
+  },
+  {
+    id: 465,
+    proverb: "Do not speak to fools, for they will scorn your prudent words."
+  },
+  {
+    id: 466,
+    proverb: "Do not move an ancient boundary stone or encroach on the fields of the fatherless, for their Defender is strong; he will take up their case against you."
+  },
+  {
+    id: 467,
+    proverb: "Apply your heart to instruction and your ears to words of knowledge."
+  },
+  {
+    id: 468,
+    proverb: "Do not withhold discipline from a child; if you punish them with the rod, they will not die. Punish them with the rod and save them from death."
+  },
+  {
+    id: 469,
+    proverb: "My son, if your heart is wise, then my heart will be glad indeed; my inmost being will rejoice when your lips speak what is right."
+  },
+  {
+    id: 470,
+    proverb: "Do not let your heart envy sinners, but always be zealous for the fear of the Lord. There is surely a future hope for you, and your hope will not be cut off."
+  },
+  {
+    id: 471,
+    proverb: "Listen, my son, and be wise, and set your heart on the right path: Do not join those who drink too much wine or gorge themselves on meat, for drunkards and gluttons become poor, and drowsiness clothes them in rags."
+  },
+  {
+    id: 472,
+    proverb: "Listen to your father, who gave you life, and do not despise your mother when she is old."
+  },
+  {
+    id: 473,
+    proverb: "Buy the truth and do not sell it— wisdom, instruction and insight as well."
+  },
+  {
+    id: 474,
+    proverb: "The father of a righteous child has great joy; a man who fathers a wise son rejoices in him."
+  },
+  {
+    id: 475,
+    proverb: "May your father and mother rejoice; may she who gave you birth be joyful!"
+  },
+  {
+    id: 476,
+    proverb: "My son, give me your heart and let your eyes delight in my ways, for an adulterous woman is a deep pit, and a wayward wife is a narrow well. Like a bandit she lies in wait and multiplies the unfaithful among men."
+  },
+  {
+    id: 477,
+    proverb: "Who has woe? Who has sorrow? Who has strife? Who has complaints? Who has needless bruises? Who has bloodshot eyes? Those who linger over wine, who go to sample bowls of mixed wine. Do not gaze at wine when it is red, when it sparkles in the cup, when it goes down smoothly! In the end it bites like a snake and poisons like a viper. Your eyes will see strange sights, and your mind will imagine confusing things. You will be like one sleeping on the high seas, lying on top of the rigging. “They hit me,” you will say, “but I'm not hurt! They beat me, but I don't feel it! When will I wake up so I can find another drink?”"
+  },
+  {
+    id: 478,
+    proverb: "Do not envy the wicked, do not desire their company; for their hearts plot violence, and their lips talk about making trouble."
+  },
+  {
+    id: 479,
+    proverb: "By wisdom a house is built, and through understanding it is established; through knowledge its rooms are filled with rare and beautiful treasures."
+  },
+  {
+    id: 480,
+    proverb: "The wise prevail through great power, and those who have knowledge muster their strength. Surely you need guidance to wage war, and victory is won through many advisers."
+  },
+  {
+    id: 481,
+    proverb: "Wisdom is too high for fools; in the assembly at the gate they must not open their mouths."
+  },
+  {
+    id: 482,
+    proverb: "Whoever plots evil will be known as a schemer. The schemes of folly are sin, and people detest a mocker."
+  },
+  {
+    id: 483,
+    proverb: "If you falter in a time of trouble, how small is your strength! Rescue those being led away to death; hold back those staggering toward slaughter. If you say, “But we knew nothing about this,” does not he who weighs the heart perceive it? Does not he who guards your life know it? Will he not repay everyone according to what they have done?"
+  },
+  {
+    id: 484,
+    proverb: "Eat honey, my son, for it is good; honey from the comb is sweet to your taste. Know also that wisdom is like honey for you: If you find it, there is a future hope for you, and your hope will not be cut off."
+  },
+  {
+    id: 485,
+    proverb: "Do not lurk like a thief near the house of the righteous, do not plunder their dwelling place; for though the righteous fall seven times, they rise again, but the wicked stumble when calamity strikes."
+  },
+  {
+    id: 486,
+    proverb: "Do not gloat when your enemy falls; when they stumble, do not let your heart rejoice, or the Lord will see and disapprove and turn his wrath away from them."
+  },
+  {
+    id: 487,
+    proverb: "Do not fret because of evildoers or be envious of the wicked, for the evildoer has no future hope, and the lamp of the wicked will be snuffed out."
+  },
+  {
+    id: 488,
+    proverb: "Fear the Lord and the king, my son, and do not join with rebellious officials, for those two will send sudden destruction on them, and who knows what calamities they can bring?"
+  },
+  {
+    id: 489,
+    proverb: "To show partiality in judging is not good: Whoever says to the guilty, “You are innocent,”     will be cursed by peoples and denounced by nations. But it will go well with those who convict the guilty, and rich blessing will come on them."
+  },
+  {
+    id: 490,
+    proverb: "An honest answer is like a kiss on the lips."
+  },
+  {
+    id: 491,
+    proverb: "Put your outdoor work in order and get your fields ready; after that, build your house."
+  },
+  {
+    id: 492,
+    proverb: "Do not testify against your neighbor without cause— would you use your lips to mislead? Do not say, “I'll do to them as they have done to me; I'll pay them back for what they did.”"
+  },
+  {
+    id: 493,
+    proverb: "I went past the field of a sluggard, past the vineyard of someone who has no sense; thorns had come up everywhere, the ground was covered with weeds, and the stone wall was in ruins. I applied my heart to what I observed and learned a lesson from what I saw: A little sleep, a little slumber, a little folding of the hands to rest— and poverty will come on you like a thief and scarcity like an armed man."
+  },
+  {
+    id: 494,
+    proverb: "" /* proverb 25 vv */
+
+
 
 
 ];
