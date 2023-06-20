@@ -1666,6 +1666,156 @@ const PROVERBS = [
     id: 416,
     proverb: "Better to live on a corner of the roof than share a house with a quarrelsome wife."
   },
+  {
+    id: 417,
+    proverb: "The wicked crave evil; their neighbors get no mercy from them."
+  },
+  {
+    id: 418,
+    proverb: "When a mocker is punished, the simple gain wisdom; by paying attention to the wise they get knowledge."
+  },
+  {
+    id: 419,
+    proverb: "The Righteous One takes note of the house of the wicked and brings the wicked to ruin."
+  },
+  {
+    id: 420,
+    proverb: "Whoever shuts their ears to the cry of the poor will also cry out and not be answered."
+  },
+  {
+    id: 421,
+    proverb: "A gift given in secret soothes anger, and a bribe concealed in the cloak pacifies great wrath."
+  },
+  {
+    id: 422,
+    proverb: "When justice is done, it brings joy to the righteous but terror to evildoers."
+  },
+  {
+    id: 423,
+    proverb: "Whoever strays from the path of prudence comes to rest in the company of the dead."
+  },
+  {
+    id: 424,
+    proverb: "Whoever loves pleasure will become poor; whoever loves wine and olive oil will never be rich."
+  },
+  {
+    id: 425,
+    proverb: "The wicked become a ransom for the righteous, and the unfaithful for the upright."
+  },
+  {
+    id: 426,
+    proverb: "Better to live in a desert than with a quarrelsome and nagging wife."
+  },
+  {
+    id: 427,
+    proverb: "The wise store up choice food and olive oil, but fools gulp theirs down."
+  },
+  {
+    id: 428,
+    proverb: "Whoever pursues righteousness and love finds life, prosperity and honor."
+  },
+  {
+    id: 429,
+    proverb: "One who is wise can go up against the city of the mighty and pull down the stronghold in which they trust."
+  },
+  {
+    id: 430,
+    proverb: "Those who guard their mouths and their tongues keeps themselves from calamity."
+  },
+  {
+    id: 431,
+    proverb: "The proud and arrogant person— “Mocker” is his name— behaves with insolent fury."
+  },
+  {
+    id: 432,
+    proverb: "The craving of a sluggard will be the death of him, because his hands refuse to work."
+  },
+  {
+    id: 433,
+    proverb: "All day long he [the sluggard] craves for more, but the righteous give without sparing."
+  },
+  {
+    id: 434,
+    proverb: "The sacrifice of the wicked is detestable— how much more so when brought with evil intent!"
+  },
+  {
+    id: 435,
+    proverb: "A false witness will perish, but a careful listener will testify successfully."
+  },
+  {
+    id: 436,
+    proverb: "The wicked put up a bold front, but the upright give thought to their ways."
+  },
+  {
+    id: 437,
+    proverb: "There is no wisdom, no insight, no plan that can succeed against the Lord."
+  },
+  {
+    id: 438,
+    proverb: "The horse is made ready for the day of battle, but victory rests with the Lord."
+  },
+  {
+    id: 439,
+    proverb: "A good name is more desirable than great riches; to be esteemed is better than silver or gold."
+  },
+  {
+    id: 440,
+    proverb: "Rich and poor have this in common: The Lord is the Maker of them all."
+  },
+  {
+    id: 441,
+    proverb: "The prudent see danger and take refuge, but the simple keep going and pay the penalty."
+  },
+  {
+    id: 442,
+    proverb: "Humility is the fear of the Lord; its wages are riches and honor and life."
+  },
+  {
+    id: 443,
+    proverb: "In the paths of the wicked are snares and pitfalls, but those who would preserve their life stay far from them."
+  },
+  {
+    id: 444,
+    proverb: "Start children off on the way they should go, and even when they are old they will not turn from it."
+  },
+  {
+    id: 445,
+    proverb: "The rich rule over the poor, and the borrower is slave to the lender."
+  },
+  {
+    id: 446,
+    proverb: "Whoever sows injustice reaps calamity, and the rod they wield in fury will be broken."
+  },
+  {
+    id: 447,
+    proverb: "The generous will themselves be blessed, for they share their food with the poor."
+  },
+  {
+    id: 448,
+    proverb: "Drive out the mocker, and out goes strife; quarrels and insults are ended."
+  },
+  {
+    id: 449,
+    proverb: "One who loves a pure heart and who speaks with grace will have the king for a friend."
+  },
+  {
+    id: 450,
+    proverb: "The eyes of the Lord keep watch over knowledge, but he frustrates the words of the unfaithful."
+  },
+  {
+    id: 451,
+    proverb: "The sluggard says, “There's a lion outside! I'll be killed in the public square!”"
+  },
+  {
+    id: 452,
+    proverb: "The mouth of an adulterous woman is a deep pit; a man who is under the Lord’s wrath falls into it."
+  },
+
+
+
+
+
+
 
 
 
