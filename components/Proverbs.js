@@ -2338,8 +2338,14 @@ const PROVERBS = [
     id: 584,
     proverb: "To show partiality is not good— yet a person will do wrong for a piece of bread."
   },
-
-
+  {
+    id: 585,
+    proverb: "The stingy are eager to get rich and are unaware that poverty awaits them."
+  },
+  {
+    id: 586,
+    proverb: "Whoever rebukes a person will in the end gain favor rather than one who has a flattering tongue."
+  },
 
 
 ];
