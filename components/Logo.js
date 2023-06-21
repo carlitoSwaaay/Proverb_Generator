@@ -15,8 +15,5 @@ const styles = StyleSheet.create({
     height: 450,
     alignItems: 'center',
     justifyContent: 'center',
-    flexDirection: 'row',
-
-
   },
 });
