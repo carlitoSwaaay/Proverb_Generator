@@ -1,8 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, ImageBackground, SafeAreaView } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { useFonts } from 'expo-font';
 import MainScreen from './screens/MainScreen';
 
+import * as SplashScreen from 'expo-splash-screen';
+import { LinearGradient } from 'expo-linear-gradient';
+import { useEffect } from 'react';
+
+SplashScreen.preventAutoHideAsync()
+  .then((result) =>
+    console.log(`SplashScreen.preventAutoHideAsync() succeeded: ${result}`),
+  )
+  .catch(console.warn)
+  // prevents the splash screen from hiding automatically, call this as early as possible in the app.
+
 export default function App() {
+
+  useEffect(() => {
+    async function hideSplashScreen() {
+      await SplashScreen.hideAsync();
+    }
+    if (fontsLoaded) {
+      hideSplashScreen();
+    }
+  }, [!fontsLoaded]);
+
+  // This is the function that will be called to hide the splash screen.
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
+
   return (
     <View style={styles.container}>
       <MainScreen />
