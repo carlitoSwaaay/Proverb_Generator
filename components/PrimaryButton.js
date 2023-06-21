@@ -27,16 +27,23 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     margin: 4,
     overflow: 'hidden',
+    elevation: 8,
+    shadowRadius: 6,
+    shadowOpacity: 0.75,
+    shadowOffset: { width: 0, height: 8 },
+    shadowColor: 'black',
   },
   buttonInnerContainer: {
     backgroundColor: '#662d91' /* add color file */,
     paddingVertical: 8,
-    paddingHorizontal: 16,
-    elevation: 2,
+    paddingHorizontal: '25%',
+
   },
   buttonText: {
     color: 'white',
     textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: 20,
   },
   pressed: {
     opacity: 0.75,
