@@ -37,22 +37,25 @@ export default function App() {
     return null;
   }
 
+  let screen = <MainScreen />
+
 
   return (
     <>
-      <StatusBar style="auto" />
-    <View style={styles.container}>
-        <MainScreen />
-    </View>
+      <StatusBar style="light" />
+      <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
+        resizeMode="stretch"
+        style={styles.rootScreen}
+      >
+        <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
+      </ImageBackground>
     </>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  rootScreen: {
     flex: 1,
-    backgroundColor: '#f8f8f8',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // backgroundColor: '#f8f8f8',
   },
 });

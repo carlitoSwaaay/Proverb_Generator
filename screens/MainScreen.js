@@ -40,13 +40,13 @@ const styles = StyleSheet.create({
     padding: 20,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f8f8f8',
+    // backgroundColor: '#f8f8f8',
   },
   imageContainer: {
-    flex: .75,
+    flex: .65,
     justifyContent: 'center',
     alignItems: 'center',
     overflow: 'hidden',
-    margin: 10,
+    margin: 20,
   },
 })

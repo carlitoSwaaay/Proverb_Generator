@@ -30,8 +30,9 @@ const styles = StyleSheet.create({
     elevation: 8,
     shadowRadius: 6,
     shadowOpacity: 0.75,
-    shadowOffset: { width: 0, height: 8 },
+    shadowOffset: { width: 0, height: 10 },
     shadowColor: 'black',
+    opacity: .9,
   },
   buttonInnerContainer: {
     backgroundColor: '#662d91' /* add color file */,

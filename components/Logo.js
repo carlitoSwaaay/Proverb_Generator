@@ -11,9 +11,10 @@ export default function Logo() {
 
 const styles = StyleSheet.create({
   image: {
-    width: 450,
-    height: 450,
+    width: 300,
+    height: 300,
     alignItems: 'center',
     justifyContent: 'center',
+    opacity: .9,
   },
 });
