@@ -2591,4 +2591,4 @@ PROVERBS = [
 shuffle.pick(PROVERBS, { 'picks': 1 });
 console.log(shuffle.pick(PROVERBS, { 'picks': 1 }));
 
-// export default generateRandomId;
+export default PROVERBS;

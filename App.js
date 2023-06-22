@@ -7,6 +7,7 @@ import ProverbScreen from './screens/ProverbScreen';
 import * as SplashScreen from 'expo-splash-screen';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useEffect } from 'react';
+import PrimaryButton from './components/PrimaryButton';
 
 SplashScreen.preventAutoHideAsync()
   .then((result) =>
@@ -37,7 +38,13 @@ export default function App() {
     return null;
   }
 
-  let screen = <ProverbScreen />;
+  let screen = <MainScreen />;
+
+  // if (PrimaryButton === pressed) {
+  //   screen = <ProverbScreen />;
+  // }
+
+
 
 
 
@@ -47,8 +54,7 @@ export default function App() {
       <StatusBar style="light" />
       <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
         resizeMode="stretch"
-        style={styles.rootScreen}
-      >
+        style={styles.rootScreen}>
         <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
       </ImageBackground>
     </>
