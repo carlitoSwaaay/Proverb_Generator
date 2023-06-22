@@ -2,6 +2,7 @@ import { StyleSheet, View, ImageBackground, SafeAreaView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 import MainScreen from './screens/MainScreen';
+import ProverbScreen from './screens/ProverbScreen';
 
 import * as SplashScreen from 'expo-splash-screen';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -38,10 +39,12 @@ export default function App() {
 
 
   return (
-    <View style={styles.container}>
-      <MainScreen />
+    <>
       <StatusBar style="auto" />
+    <View style={styles.container}>
+        <MainScreen />
     </View>
+    </>
   );
 }
 
