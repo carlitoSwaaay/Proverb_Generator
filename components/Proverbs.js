@@ -1,13 +1,15 @@
+import shuffleArray from "shuffle-array";
 
 
-const generateRandomId = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
+// const generateRandomId = (array) => {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     const j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
 
+const shuffle = require('shuffle-array'),
 
-const PROVERBS = [
+PROVERBS = [
   {
     id: 1,
     proverb: "let the wise listen and add to their learning, and let the discerning get guidance—for understanding proverbs and parables, the sayings and riddles of the wise."
@@ -2585,11 +2587,10 @@ const PROVERBS = [
     id: 644,
     proverb: "Charm is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised. Honor her for all that her hands have done, and let her works bring her praise at the city gate."
   },
-  ]
-};
+  ];
 
-shuffleArray(PROVERBS);
 
-console.log(PROVERBS);
+shuffle.pick(PROVERBS, { 'picks': 1 });
+console.log(shuffle.pick(PROVERBS, { 'picks': 1 }));
 
-export default generateRandomId;
+// export default generateRandomId;
