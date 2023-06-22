@@ -24,7 +24,7 @@ export default PrimaryButton;
 
 const styles = StyleSheet.create({
   buttonOuterContainer: {
-    borderRadius: 28,
+    borderRadius: 29,
     margin: 4,
     overflow: 'hidden',
     elevation: 8,
@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
   pressed: {
     opacity: 0.75,
     color: 'white',
+
   },
   // fontFamily: Platform.select({ ios: 'Avenir', android: 'Roboto' }),
   // fontSize: 26,
