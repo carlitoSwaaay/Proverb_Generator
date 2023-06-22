@@ -1,5 +1,12 @@
 
 
+const generateRandomId = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+
+
 const PROVERBS = [
   {
     id: 1,
@@ -2578,4 +2585,11 @@ const PROVERBS = [
     id: 644,
     proverb: "Charm is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised. Honor her for all that her hands have done, and let her works bring her praise at the city gate."
   },
-];
+  ]
+};
+
+shuffleArray(PROVERBS);
+
+console.log(PROVERBS);
+
+export default generateRandomId;

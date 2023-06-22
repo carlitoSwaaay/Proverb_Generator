@@ -1,10 +1,20 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity } from 'react-native';
+
 import Logo from '../components/Logo';
 import PrimaryButton from '../components/PrimaryButton';
+import ProverbScreen from './ProverbScreen';
 
 
 const MainScreen = () => {
+
+  const [initialProverb, setInitialProverb] = useState('');
+
+  const inputHandler = () => {
+    <ProverbScreen />
+
+
+  };
 
 
   return (
@@ -13,7 +23,7 @@ const MainScreen = () => {
         <Logo />
       </View>
       <View>
-        <PrimaryButton>
+        <PrimaryButton onPress={inputHandler}>
           <Text>Daily Proverb</Text>
         </PrimaryButton>
       </View>

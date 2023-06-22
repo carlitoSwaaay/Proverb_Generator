@@ -3,19 +3,23 @@ import React from 'react'
 
 import { Proverbs } from '../components/Proverbs'
 
-const generateRandomId = (min, max) => {
-  const randomId = Math.floor(Math.random(Proverbs) * (max - min)) + min;
+const ProverbScreen = () => {
 
-  return randomId;
 
 
 
   return (
     <View>
-      <Text>ProverbScreen</Text>
+      <Proverbs />
     </View>
   )
-}
+
+};
+
+
+
+
+
 
 export default ProverbScreen
 
