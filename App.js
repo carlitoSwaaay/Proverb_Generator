@@ -37,7 +37,9 @@ export default function App() {
     return null;
   }
 
-  let screen = <MainScreen />
+  let screen = <ProverbScreen />;
+
+
 
 
   return (

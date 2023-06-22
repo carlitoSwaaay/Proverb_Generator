@@ -5,14 +5,12 @@ import { Proverbs } from '../components/Proverbs'
 
 const ProverbScreen = () => {
 
-
-
-
   return (
     <View>
-      <Proverbs />
+      {/* <Proverbs /> */}
+      <Text>Proverb Screen</Text>
     </View>
-  )
+  );
 
 };
 
@@ -21,6 +19,6 @@ const ProverbScreen = () => {
 
 
 
-export default ProverbScreen
+export default ProverbScreen;
 
-const styles = StyleSheet.create({})
+// const styles = StyleSheet.create({})
