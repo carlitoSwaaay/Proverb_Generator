@@ -64,14 +64,13 @@ export default function App() {
   return (
     <>
       <StatusBar style="light" />
-      <ProverbContainer />
-      {/* <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
+      <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
         resizeMode="stretch"
         style={styles.rootScreen}>
         <SafeAreaView style={styles.rootScreen}>
           {screen}
         </SafeAreaView>
-      </ImageBackground> */}
+      </ImageBackground>
     </>
   );
 }

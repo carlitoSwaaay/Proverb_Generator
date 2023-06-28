@@ -1,11 +1,12 @@
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import ProverbScreen from '../screens/ProverbScreen';
 
-const ProverbContainer = () => {
+const ProverbContainer = (children) => {
   return (
     <SafeAreaView style={styles.container}>
       <View>
-        <Text style={styles.textContainer}>Proverb Container</Text>
+        <Text style={styles.textContainer}><ProverbScreen /></Text>
       </View>
     </SafeAreaView>
   )
@@ -25,8 +26,7 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     borderRadius: 10,
     padding: 10,
-    fontSize: 20,
-    fontWeight: 'bold',
+    fontSize: 11,
     overflow: 'hidden',
 
   },

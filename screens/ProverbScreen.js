@@ -1,5 +1,6 @@
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import ProverbContainer from '../components/ProverbContainer';
 
 
 // const generateRandomId = (array) => {
@@ -2598,7 +2599,7 @@ const ProverbScreen = () => {
   return (
     <View>
       <View>
-        <Text>{shuffle.proverb}</Text>
+        <ProverbContainer />
       </View>
     </View>
   );
