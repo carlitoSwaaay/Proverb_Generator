@@ -8,10 +8,12 @@ import ProverbScreen from './ProverbScreen';
 
 const MainScreen = () => {
 
-  const [initialProverb, setInitialProverb] = useState('');
+
 
   const inputHandler = () => {
-    <ProverbScreen />
+
+
+    console.log('button pressed');
 
 
   };

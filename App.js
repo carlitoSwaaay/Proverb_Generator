@@ -1,13 +1,13 @@
-import { StyleSheet, View, ImageBackground, SafeAreaView } from 'react-native';
+import { StyleSheet, View, ImageBackground, SafeAreaView, Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 import MainScreen from './screens/MainScreen';
 import ProverbScreen from './screens/ProverbScreen';
 
 import * as SplashScreen from 'expo-splash-screen';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useEffect } from 'react';
 import PrimaryButton from './components/PrimaryButton';
+
 
 SplashScreen.preventAutoHideAsync()
   .then((result) =>
@@ -16,7 +16,11 @@ SplashScreen.preventAutoHideAsync()
   .catch(console.warn)
   // prevents the splash screen from hiding automatically, call this as early as possible in the app.
 
+
+
 export default function App() {
+
+  // const [buttonPressed, setButtonPressed] = useState(false);
 
   const [fontsLoaded] = useFonts({
     "open-sans": require('./assets/fonts/OpenSans-Regular.ttf'),
@@ -38,11 +42,18 @@ export default function App() {
     return null;
   }
 
-  let screen = <MainScreen />;
 
-  // if (PrimaryButton === pressed) {
-  //   screen = <ProverbScreen />;
-  // }
+
+
+
+
+  let screen = <ProverbScreen />;
+
+  // if (buttonPressed) {
+  //   screen = (
+  //     <ProverbScreen onPress={buttonPressed} />
+  //   );
+  // };
 
 
 
@@ -55,7 +66,9 @@ export default function App() {
       <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
         resizeMode="stretch"
         style={styles.rootScreen}>
-        <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
+        <SafeAreaView style={styles.rootScreen}>
+          {screen}
+        </SafeAreaView>
       </ImageBackground>
     </>
   );
