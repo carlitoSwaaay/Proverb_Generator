@@ -7,6 +7,7 @@ import ProverbScreen from './screens/ProverbScreen';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import PrimaryButton from './components/PrimaryButton';
+import ProverbContainer from './components/ProverbContainer';
 
 
 SplashScreen.preventAutoHideAsync()
@@ -47,7 +48,7 @@ export default function App() {
 
 
 
-  let screen = <ProverbScreen />;
+  let screen = <ProverbContainer />;
 
   // if (buttonPressed) {
   //   screen = (
@@ -63,13 +64,14 @@ export default function App() {
   return (
     <>
       <StatusBar style="light" />
-      <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
+      <ProverbContainer />
+      {/* <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
         resizeMode="stretch"
         style={styles.rootScreen}>
         <SafeAreaView style={styles.rootScreen}>
           {screen}
         </SafeAreaView>
-      </ImageBackground>
+      </ImageBackground> */}
     </>
   );
 }
