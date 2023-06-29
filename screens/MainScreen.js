@@ -6,7 +6,7 @@ import PrimaryButton from '../components/PrimaryButton';
 import ProverbScreen from './ProverbScreen';
 
 
-const MainScreen = ({ navigation }) => {
+const MainScreen = ({ navigation, Proverbs }) => {
 
 
 

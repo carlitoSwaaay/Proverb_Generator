@@ -13,9 +13,10 @@ const ProverbScreen = ({ navigation, route }) => {
 
   return (
     <View>
-      <View>
+      <SafeAreaView>
         <Text style={styles.container}>{route.params.name}</Text>
-      </View>
+        <ProverbContainer />
+      </SafeAreaView>
     </View>
   );
 };
