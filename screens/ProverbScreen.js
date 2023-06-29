@@ -9,15 +9,12 @@ import ProverbContainer from '../components/ProverbContainer';
 //     [array[i], array[j]] = [array[j], array[i]];
 //   }
 
-const ProverbScreen = () => {
-
-
-
+const ProverbScreen = (props) => {
 
   return (
     <View>
       <View>
-        <Text style={styles.container}></Text>
+       <Text style={styles.container}>{props.ProverbContainer}</Text>
       </View>
     </View>
   );
