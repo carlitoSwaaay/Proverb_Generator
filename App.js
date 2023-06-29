@@ -58,6 +58,8 @@ export default function App(props) {
           style={styles.rootScreen}
         >
         </ImageBackground>
+        <Stack.Screen name="Main" component={MainScreen} />
+        <Stack.Screen name="Proverbs" component={ProverbScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
