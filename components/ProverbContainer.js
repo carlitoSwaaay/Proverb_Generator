@@ -1,17 +1,19 @@
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Shuffle from './ProverbList';
+// import Shuffle from './ProverbList';
 
+const Shuffle = require('./ProverbList');
 
+const ProverbContainer = () => {
 
-const ProverbContainer = (Shuffle) => {
-
+  const shuffledArray = Shuffle(PROVERBS);
+  console.log(shuffledArray);
 
 
   return (
     // <SafeAreaView style={styles.container}>
       <View>
-      <Shuffle />
+      <Text style={styles.textContainer}>{shuffledArray[0].proverb}</Text>
       </View>
     // </SafeAreaView>
   )
