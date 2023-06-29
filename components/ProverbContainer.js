@@ -11,11 +11,11 @@ const ProverbContainer = () => {
 
 
   return (
-    // <SafeAreaView style={styles.container}>
-      <View>
+    <SafeAreaView>
+      <View style={styles.container}>
       <Text style={styles.textContainer}>{shuffledArray[0].proverb}</Text>
       </View>
-    // </SafeAreaView>
+    </SafeAreaView>
   )
 
 };
@@ -25,7 +25,7 @@ export default ProverbContainer;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'black',
     borderRadius: 10,
-    padding: 10,
-    fontSize: 11,
+    padding: 16,
+    fontSize: 16,
     overflow: 'hidden',
 
   },
