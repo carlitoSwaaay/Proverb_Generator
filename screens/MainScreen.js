@@ -6,7 +6,7 @@ import PrimaryButton from '../components/PrimaryButton';
 import ProverbScreen from './ProverbScreen';
 
 
-const MainScreen = (props) => {
+const MainScreen = ({ navigation }) => {
 
 
 
@@ -26,7 +26,7 @@ const MainScreen = (props) => {
         <Logo />
       </View>
       <View>
-        <PrimaryButton onPress={inputHandler}>
+        <PrimaryButton onPress={() => navigation.navigate('Proverbs', { name: Proverbs })}>
           <Text>Daily Proverb</Text>
         </PrimaryButton>
       </View>
