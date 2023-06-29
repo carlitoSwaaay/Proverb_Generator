@@ -6,12 +6,13 @@ import PrimaryButton from '../components/PrimaryButton';
 import ProverbScreen from './ProverbScreen';
 
 
-const MainScreen = () => {
+const MainScreen = (props) => {
 
 
 
   const inputHandler = () => {
 
+    <ProverbScreen />
 
     console.log('button pressed');
 

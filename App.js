@@ -5,9 +5,11 @@ import MainScreen from './screens/MainScreen';
 import ProverbScreen from './screens/ProverbScreen';
 
 import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import PrimaryButton from './components/PrimaryButton';
 import ProverbContainer from './components/ProverbContainer';
+
+
 
 
 SplashScreen.preventAutoHideAsync()
@@ -19,9 +21,10 @@ SplashScreen.preventAutoHideAsync()
 
 
 
-export default function App() {
+export default function App(props) {
 
   // const [buttonPressed, setButtonPressed] = useState(false);
+
 
   const [fontsLoaded] = useFonts({
     "open-sans": require('./assets/fonts/OpenSans-Regular.ttf'),
@@ -50,12 +53,9 @@ export default function App() {
 
   let screen = <MainScreen />;
 
-  // if (buttonPressed) {
-  //   screen = (
-  //     <ProverbScreen onPress={buttonPressed} />
-  //   );
-  // };
-
+  if (PrimaryButton.onPress === true) {
+    screenState = 'proverb';
+  }
 
 
 
@@ -73,7 +73,8 @@ export default function App() {
       </ImageBackground>
     </>
   );
-}
+};
+
 
 const styles = StyleSheet.create({
   rootScreen: {
