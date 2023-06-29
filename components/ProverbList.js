@@ -1,5 +1,5 @@
 
-const shuffle = require('shuffle-array')
+const Shuffle = require('shuffle-array')
 
 PROVERBS = [
   {
@@ -2580,9 +2580,9 @@ PROVERBS = [
   },
 ];
 
-shuffle.pick(PROVERBS, { 'picks': 1 });
-console.log(shuffle.pick(PROVERBS, { 'picks': 1 }));
+Shuffle.pick(PROVERBS, { 'picks': 1 });
+console.log(Shuffle.pick(PROVERBS, { 'picks': 1 }));
 
 
 
-export default shuffle;
+module.exports = Shuffle;
