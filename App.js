@@ -8,6 +8,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useState } from 'react';
 import PrimaryButton from './components/PrimaryButton';
 import ProverbContainer from './components/ProverbContainer';
+import { NavigationContainer } from '@react-navigation/native';
 
 
 
@@ -62,7 +63,7 @@ export default function App(props) {
 
 
   return (
-    <>
+    <NavigationContainer>
       <StatusBar style="light" />
       <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
         resizeMode="stretch"
@@ -71,7 +72,7 @@ export default function App(props) {
           {screen}
         </SafeAreaView>
       </ImageBackground>
-    </>
+    </NavigationContainer>
   );
 };
 
