@@ -1,14 +1,14 @@
 import { StyleSheet, View, ImageBackground, SafeAreaView, Text } from 'react-native';
+import { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
-import MainScreen from './screens/MainScreen';
-import ProverbScreen from './screens/ProverbScreen';
-
+import { NavigationContainer } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
-import { useEffect, useState } from 'react';
+
+import ProverbScreen from './screens/ProverbScreen';
+import MainScreen from './screens/MainScreen';
 import PrimaryButton from './components/PrimaryButton';
 import ProverbContainer from './components/ProverbContainer';
-import { NavigationContainer } from '@react-navigation/native';
 
 
 
