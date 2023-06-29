@@ -2599,7 +2599,8 @@ const ProverbScreen = () => {
   return (
     <View>
       <View>
-        <ProverbContainer />
+        <Text
+          style={styles.container}>{PROVERBS.proverb}</Text>
       </View>
     </View>
   );

@@ -48,7 +48,7 @@ export default function App() {
 
 
 
-  let screen = <ProverbContainer />;
+  let screen = <ProverbScreen />;
 
   // if (buttonPressed) {
   //   screen = (
