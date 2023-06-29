@@ -2,15 +2,16 @@ import { StyleSheet, View, ImageBackground, SafeAreaView, Text } from 'react-nat
 import { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, StackActions } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
 
 import ProverbScreen from './screens/ProverbScreen';
 import MainScreen from './screens/MainScreen';
 import PrimaryButton from './components/PrimaryButton';
 import ProverbContainer from './components/ProverbContainer';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-
+const = Stack = createNativeStackNavigator();
 
 
 SplashScreen.preventAutoHideAsync()
@@ -64,6 +65,7 @@ export default function App(props) {
 
   return (
     <NavigationContainer>
+      <Stack.Navigator></Stack.Navigator>
       <StatusBar style="light" />
       <ImageBackground source={require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
         resizeMode="stretch"
