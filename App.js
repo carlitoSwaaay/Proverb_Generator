@@ -48,21 +48,6 @@ export default function App(props) {
     return null;
   }
 
-
-
-
-
-
-  let screen = <MainScreen />;
-
-  if (PrimaryButton.onPress === true) {
-    screenState = 'proverb';
-  }
-
-
-
-
-
   return (
     <NavigationContainer>
       <Stack.Navigator></Stack.Navigator>
