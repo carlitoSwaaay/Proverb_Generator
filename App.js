@@ -11,7 +11,7 @@ import PrimaryButton from './components/PrimaryButton';
 import ProverbContainer from './components/ProverbContainer';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const = Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
 
 SplashScreen.preventAutoHideAsync()
