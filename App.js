@@ -48,7 +48,7 @@ export default function App() {
 
 
 
-  let screen = <ProverbScreen />;
+  let screen = <MainScreen />;
 
   // if (buttonPressed) {
   //   screen = (
