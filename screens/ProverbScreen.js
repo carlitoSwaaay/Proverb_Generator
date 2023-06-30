@@ -1,6 +1,7 @@
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
+import PrimaryButton from '../components/PrimaryButton';
 
 
 // const generateRandomId = (array) => {
@@ -22,6 +23,10 @@ const ProverbScreen = ({ navigation, route }) => {
       </View>
         <Text style={styles.container}>{route.params.name}</Text>
       <ProverbContainer />
+      <View style={styles.button}>
+        <PrimaryButton>Next Proverb</PrimaryButton>
+        <PrimaryButton>Go Back</PrimaryButton>
+      </View>
     </View>
   );
 };
@@ -40,7 +45,6 @@ const styles = StyleSheet.create({
     marginTop: 5,
     paddingVertical: 10,
     paddingHorizontal: 10,
-    opacity: .9
   },
   backgroundContainer: {
     position: 'absolute',
@@ -53,6 +57,9 @@ const styles = StyleSheet.create({
   backgroundImage: {
     flex: 1,
     flexDirection: 'column',
+  },
+  button: {
+    marginTop: 30,
   },
 });
 

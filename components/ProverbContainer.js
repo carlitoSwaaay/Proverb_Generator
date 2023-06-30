@@ -15,9 +15,6 @@ const ProverbContainer = () => {
     <SafeAreaView>
       <View style={styles.container}>
         <Text style={styles.textContainer}>{shuffledArray[0].proverb}</Text>
-        <View style={styles.button}>
-          <PrimaryButton>Next Proverb</PrimaryButton>
-        </View>
       </View>
     </SafeAreaView>
   )
