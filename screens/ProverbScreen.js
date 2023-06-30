@@ -1,4 +1,4 @@
-import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 
@@ -12,11 +12,16 @@ import ProverbContainer from '../components/ProverbContainer';
 const ProverbScreen = ({ navigation, route }) => {
 
   return (
-    <View>
-      <SafeAreaView>
+    <View style={styles.rootContainer}>
+      <View style={styles.backgroundContainer}>
+        <Image source=
+          {require('../assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
+          resizeMode='stretch'
+          style={styles.backgroundImage}
+        />
+      </View>
         <Text style={styles.container}>{route.params.name}</Text>
-        <ProverbContainer />
-      </SafeAreaView>
+      <ProverbContainer />
     </View>
   );
 };
@@ -24,10 +29,30 @@ const ProverbScreen = ({ navigation, route }) => {
 export default ProverbScreen;
 
 const styles = StyleSheet.create({
+  rootContainer: {
+    flex: 1,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    // backgroundColor: '#f8f8f8',
+  },
   container: {
     marginTop: 5,
     paddingVertical: 10,
     paddingHorizontal: 10,
+    opacity: .9
+  },
+  backgroundContainer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    // opacity: .5,
+  },
+  backgroundImage: {
+    flex: 1,
+    flexDirection: 'column',
   },
 });
 

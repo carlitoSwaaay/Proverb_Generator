@@ -1,17 +1,21 @@
-import { StyleSheet, View, ImageBackground, SafeAreaView, Text } from 'react-native';
-import { useEffect, useState } from 'react';
+import { StyleSheet, Dimensions } from 'react-native';
+import { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
-import { NavigationContainer, StackActions } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import ProverbScreen from './screens/ProverbScreen';
 import MainScreen from './screens/MainScreen';
-import PrimaryButton from './components/PrimaryButton';
-import ProverbContainer from './components/ProverbContainer';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
+
+const { width, height } = Dimensions.get('window');
+
+
+
+
 
 
 SplashScreen.preventAutoHideAsync()
@@ -23,9 +27,9 @@ SplashScreen.preventAutoHideAsync()
 
 
 
-export default function App(props) {
+export default function App() {
 
-  // const [buttonPressed, setButtonPressed] = useState(false);
+
 
 
   const [fontsLoaded] = useFonts({
@@ -49,25 +53,23 @@ export default function App(props) {
   }
 
   return (
+
     <NavigationContainer>
       <StatusBar style="light" />
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={
+          {
+            headerShown: false,
+          }}
+      >
         <Stack.Screen name='Main' component={MainScreen} />
         <Stack.Screen name='Proverbs' component={ProverbScreen} />
       </Stack.Navigator>
     </NavigationContainer>
-      //   <ImageBackground source=
-      //     {require('./assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
-      //     resizeMode="stretch"
-      //     style={styles.rootScreen}
-      // />
   );
 };
 
 
 const styles = StyleSheet.create({
-  rootScreen: {
-    flex: 1,
-    // backgroundColor: '#f8f8f8',
-  },
+
 });

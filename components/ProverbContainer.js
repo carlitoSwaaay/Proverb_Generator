@@ -33,15 +33,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginLeft: 20,
     marginRight: 20,
+    opacity: .9,
   },
   textContainer: {
-    backgroundColor: 'grey',
-    borderWidth: 1,
+    backgroundColor: '#d6f2be',
+    borderWidth: 3,
     borderColor: 'black',
-    borderRadius: 10,
+    borderRadius: 15,
     padding: 16,
-    fontSize: 16,
+    fontSize: 18,
     overflow: 'hidden',
+    fontFamily: 'open-sans-bold',
+
 
   },
   button: {
