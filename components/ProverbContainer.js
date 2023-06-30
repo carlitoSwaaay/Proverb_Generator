@@ -14,7 +14,9 @@ const ProverbContainer = () => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <Text style={styles.textContainer}>{shuffledArray[0].proverb}</Text>
+        <Text style={styles.textContainer}>
+          {shuffledArray[0].proverb}
+        </Text>
       </View>
     </SafeAreaView>
   )
@@ -43,9 +45,6 @@ const styles = StyleSheet.create({
     fontFamily: 'open-sans-bold',
 
 
-  },
-  button: {
-    marginTop: 30,
   },
 
 });

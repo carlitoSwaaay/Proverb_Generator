@@ -2,6 +2,7 @@ import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-n
 import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 import PrimaryButton from '../components/PrimaryButton';
+import BackButton from '../components/BackButton';
 
 
 // const generateRandomId = (array) => {
@@ -25,7 +26,7 @@ const ProverbScreen = ({ navigation, route }) => {
       <ProverbContainer />
       <View style={styles.button}>
         <PrimaryButton>Next Proverb</PrimaryButton>
-        <PrimaryButton>Go Back</PrimaryButton>
+        <BackButton>Go Back</BackButton>
       </View>
     </View>
   );
