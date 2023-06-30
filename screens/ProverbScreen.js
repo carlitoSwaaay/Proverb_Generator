@@ -3,6 +3,7 @@ import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 import PrimaryButton from '../components/PrimaryButton';
 import BackButton from '../components/BackButton';
+import MainScreen from './MainScreen';
 
 
 // const generateRandomId = (array) => {
@@ -11,7 +12,7 @@ import BackButton from '../components/BackButton';
 //     [array[i], array[j]] = [array[j], array[i]];
 //   }
 
-const ProverbScreen = ({ navigation, route }) => {
+const ProverbScreen = ({ navigation, route, Main }) => {
 
   return (
     <View style={styles.rootContainer}>
@@ -26,7 +27,7 @@ const ProverbScreen = ({ navigation, route }) => {
       <ProverbContainer />
       <View style={styles.button}>
         <PrimaryButton>Next Proverb</PrimaryButton>
-        <BackButton>Go Back</BackButton>
+        <BackButton onPress={() => { navigation.navigate('Main', { name: Main }) }}>Go Back</BackButton>
       </View>
     </View>
   );
