@@ -3,7 +3,7 @@ import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 import PrimaryButton from '../components/PrimaryButton';
 import BackButton from '../components/BackButton';
-import MainScreen from './MainScreen';
+
 
 
 // const generateRandomId = (array) => {
