@@ -13,7 +13,7 @@ import DevotionalScreen from './DevotionalScreen';
 //     [array[i], array[j]] = [array[j], array[i]];
 //   }
 
-const ProverbScreen = ({ navigation, route, Main }) => {
+const ProverbScreen = ({ navigation, route, Devotional }) => {
 
   return (
     <View style={styles.rootContainer}>
