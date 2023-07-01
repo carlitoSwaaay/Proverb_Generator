@@ -26,7 +26,6 @@ const ProverbScreen = ({ navigation, route, Main }) => {
         <Text style={styles.container}>{route.params.name}</Text>
       <ProverbContainer />
       <View style={styles.button}>
-        <PrimaryButton>Next Proverb</PrimaryButton>
         <BackButton onPress={() => { navigation.navigate('Main', { name: Main }) }}>Go Back</BackButton>
       </View>
     </View>
