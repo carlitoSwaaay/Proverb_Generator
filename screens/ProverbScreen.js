@@ -3,6 +3,7 @@ import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 import PrimaryButton from '../components/PrimaryButton';
 import BackButton from '../components/BackButton';
+import DevotionalScreen from './DevotionalScreen';
 
 
 
@@ -26,7 +27,7 @@ const ProverbScreen = ({ navigation, route, Main }) => {
         <Text style={styles.container}>{route.params.name}</Text>
       <ProverbContainer />
       <View style={styles.button}>
-        <BackButton onPress={() => { navigation.navigate('Main', { name: Main }) }}>Go Back</BackButton>
+        <BackButton onPress={() => { navigation.navigate('Devotional', { name: DevotionalScreen }) }}>Devotional</BackButton>
       </View>
     </View>
   );
