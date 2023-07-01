@@ -27,7 +27,7 @@ const ProverbScreen = ({ navigation, route, Devotional }) => {
         <Text style={styles.container}>{route.params.name}</Text>
       <ProverbContainer />
       <View style={styles.button}>
-        <BackButton onPress={() => { navigation.navigate('Devotional', { name: DevotionalScreen }) }}>Devotional</BackButton>
+        <BackButton onPress={() => { navigation.navigate('Devotional', { name: Devotional }) }}>Devotional</BackButton>
       </View>
     </View>
   );
