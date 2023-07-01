@@ -24,7 +24,9 @@ const ProverbScreen = ({ navigation, route, Devotional }) => {
           style={styles.backgroundImage}
         />
       </View>
-        <Text style={styles.container}>{route.params.name}</Text>
+
+      <ScrollView style={styles.container} bounces='true'>{route.params.name}</ScrollView>
+
       <ProverbContainer />
       <View style={styles.button}>
         <BackButton onPress={() => { navigation.navigate('Devotional', { name: Devotional }) }}>Devotional</BackButton>
@@ -47,6 +49,7 @@ const styles = StyleSheet.create({
     marginTop: 5,
     paddingVertical: 10,
     paddingHorizontal: 10,
+    position: 'absolute',
   },
   backgroundContainer: {
     position: 'absolute',
