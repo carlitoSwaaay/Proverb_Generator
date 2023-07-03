@@ -1,21 +1,77 @@
+import { StyleSheet, Dimensions } from 'react-native';
+import { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { useFonts } from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import ProverbScreen from './screens/ProverbScreen';
 import MainScreen from './screens/MainScreen';
+import DevotionalScreen from './screens/DevotionalScreen';
+
+const Stack = createNativeStackNavigator();
+
+const { width, height } = Dimensions.get('window');
+
+
+
+
+
+
+SplashScreen.preventAutoHideAsync()
+  .then((result) =>
+    console.log(`SplashScreen.preventAutoHideAsync() succeeded: ${result}`),
+  )
+  .catch(console.warn)
+  // prevents the splash screen from hiding automatically, call this as early as possible in the app.
+
+
 
 export default function App() {
+
+
+
+
+  const [fontsLoaded] = useFonts({
+    "open-sans": require('./assets/fonts/OpenSans-Regular.ttf'),
+    "open-sans-bold": require('./assets/fonts/OpenSans-Bold.ttf'),
+  }); 
+
+  useEffect(() => {
+    async function hideSplashScreen() {
+      await SplashScreen.hideAsync();
+    }
+    if (fontsLoaded) {
+      hideSplashScreen();
+    }
+  }, [!fontsLoaded]);
+
+  // This is the function that will be called to hide the splash screen.
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <MainScreen />
-      <StatusBar style="auto" />
-    </View>
+
+    <NavigationContainer>
+      <StatusBar style="light" />
+      <Stack.Navigator
+        screenOptions={
+          {
+            headerShown: false,
+          }}
+      >
+        <Stack.Screen name='Main' component={MainScreen} />
+        <Stack.Screen name='Proverbs' component={ProverbScreen} />
+        <Stack.Screen name='Devotional' component={DevotionalScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
+
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f8f8f8',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+
 });

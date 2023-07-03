@@ -1,6 +1,7 @@
 
+const Shuffle = require('shuffle-array')
 
-const PROVERBS = [
+PROVERBS = [
   {
     id: 1,
     proverb: "let the wise listen and add to their learning, and let the discerning get guidance—for understanding proverbs and parables, the sayings and riddles of the wise."
@@ -1297,7 +1298,6 @@ const PROVERBS = [
     id: 324,
     proverb: "Even fools are thought wise if they keep silent, and discerning if they hold their tongues."
   },
-  /*Proverbs 18 vv */
   {
     id: 325,
     proverb: "An unfriendly person pursues selfish ends and against all sound judgment starts quarrels."
@@ -2579,3 +2579,10 @@ const PROVERBS = [
     proverb: "Charm is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised. Honor her for all that her hands have done, and let her works bring her praise at the city gate."
   },
 ];
+
+Shuffle.pick(PROVERBS, { 'picks': 1 });
+console.log(Shuffle.pick(PROVERBS, { 'picks': 1 }));
+
+
+
+module.exports = Shuffle;

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Pressable } from 'react-native'
 
 
-const PrimaryButton = ({ children, onPress }) => {
+const BackButton = ({ children, onPress }) => {
 
   return (
     <View style={styles.buttonOuterContainer}>
@@ -20,7 +20,7 @@ const PrimaryButton = ({ children, onPress }) => {
   );
 };
 
-export default PrimaryButton;
+export default BackButton;
 
 const styles = StyleSheet.create({
   buttonOuterContainer: {
@@ -52,12 +52,4 @@ const styles = StyleSheet.create({
     color: 'white',
 
   },
-  // fontFamily: Platform.select({ ios: 'Avenir', android: 'Roboto' }),
-  // fontSize: 26,
-  // fontWeight: 'bold',
-  // color: 'black',
-  // textAlign: 'center',
-  // borderWidth: Platform.select({ ios: 0, android: .5 }),
-  // borderRadius: 20,
-  // padding: 12,
 });
