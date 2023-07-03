@@ -1,13 +1,19 @@
-import { StyleSheet, Text, View, } from 'react-native'
+import { Image, StyleSheet, Text, View, } from 'react-native'
 import React from 'react'
 
-const DevotionalScreen = ({ }) => {
+const DevotionalScreen = () => {
   return (
-    <View style={styles.container}>
+
       <View style={styles.textContainer}>
-      <Text>DevotionalScreen</Text>
+      <View style={styles.backgroundContainer}>
+        <Image source=
+          {require('../assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
+          resizeMode='stretch'
+          style={styles.backgroundImage}
+        />
       </View>
     </View>
+
   )
 };
 
