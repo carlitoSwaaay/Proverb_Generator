@@ -1,6 +1,7 @@
 import { Image, StyleSheet, TextInput, View, } from 'react-native'
 import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
+import DevotionalContainer from '../components/DevotionalContainer';
 
 const DevotionalScreen = () => {
   return (
@@ -13,9 +14,9 @@ const DevotionalScreen = () => {
         />
       </View>
 
-      <ProverbContainer>
+      <DevotionalContainer>
         <TextInput>Devotional Screen</TextInput>
-      </ProverbContainer>
+      </DevotionalContainer>
 
 
 
