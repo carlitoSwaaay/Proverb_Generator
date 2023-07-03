@@ -1,4 +1,4 @@
-import { SafeAreaView, StyleSheet, TextInput, View } from 'react-native'
+import { KeyboardAvoidingView, SafeAreaView, StyleSheet, TextInput, View } from 'react-native'
 import React from 'react'
 
 
@@ -7,9 +7,13 @@ const ProverbContainer = () => {
 
   return (
     <SafeAreaView>
-      <View style={styles.container}>
+      <KeyboardAvoidingView
+        style={styles.container}
+        keyboardShouldPersistTaps='handled'
+      >
         <TextInput
           style={styles.textContainer}
+          keyboardAvoidingView='enabled'
           multiline={true}
           placeholder='What are you thoughts about this proverb?'
           autoCorrect={true}
@@ -18,7 +22,7 @@ const ProverbContainer = () => {
         >
 
         </TextInput>
-      </View>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   )
 
@@ -31,8 +35,8 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: 20,
-    marginRight: 20,
+    marginLeft: 4,
+    marginRight: 4,
     opacity: .9,
   },
   textContainer: {
