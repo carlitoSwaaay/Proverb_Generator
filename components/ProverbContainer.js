@@ -1,7 +1,5 @@
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import PrimaryButton from './PrimaryButton';
-// import Shuffle from './ProverbList';
 
 const Shuffle = require('./ProverbList');
 
