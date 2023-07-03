@@ -8,7 +8,12 @@ const ProverbContainer = () => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <TextInput style={styles.textContainer}></TextInput>
+        <TextInput
+          style={styles.textContainer}
+          multiline={true}
+        >
+
+        </TextInput>
       </View>
     </SafeAreaView>
   )
@@ -31,7 +36,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'black',
     borderRadius: 15,
-    padding: 16,
+    padding: 30,
     fontSize: 18,
     overflow: 'hidden',
     fontFamily: 'open-sans-bold',
