@@ -11,6 +11,10 @@ const ProverbContainer = () => {
         <TextInput
           style={styles.textContainer}
           multiline={true}
+          placeholder='What are you thoughts about this proverb?'
+          autoCorrect={true}
+          spellCheck={true}
+          textAlign='left'
         >
 
         </TextInput>
