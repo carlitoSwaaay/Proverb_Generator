@@ -22,12 +22,15 @@ const ProverbContainer = () => {
           value={text}
           keyboardAvoidingView='enabled'
           multiline={true}
-          placeholder='What are you thoughts about this Proverb?'
+          placeholder='What are your thoughts about this Proverb?'
           autoCorrect={true}
           spellCheck={true}
-          textAlign='left'
-          padding={Platform.OS === 'ios' ? 30 : 10}
-          verticalAlign='top'
+          // textAlign='left'
+          // padding={Platform.OS === 'ios' ? 25 : 10}
+          // verticalAlign={Platform.OS === 'ios' ? 'middle' : 'auto'}
+          // height={Platform.OS === 'ios' ? 100 : height}
+          // marginTop={Platform.OS === 'ios' ? 10 : 30}
+
 
         >
         </TextInput>
@@ -47,19 +50,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     // marginLeft: 4,
     // marginRight: 4,
-    marginTop: 30,
+    marginTop: 40,
     opacity: .9,
   },
   textContainer: {
     backgroundColor: '#d6f2be',
-    borderWidth: 3,
     borderColor: 'black',
     borderRadius: 15,
-    height: 100,
-    padding: 30,
+    borderWidth: 1,
+    padding: 10,
     fontSize: 18,
     overflow: 'hidden',
     fontFamily: 'open-sans-bold',
+    textAlign: 'left',
+    wordWrap: 'break-word'
 
 
   },
