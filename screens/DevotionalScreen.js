@@ -2,6 +2,7 @@ import { Image, StyleSheet, TextInput, View, } from 'react-native'
 import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 import DevotionalContainer from '../components/DevotionalContainer';
+import DevotionalSubmitButton from '../components/DevotionalSubmitButton';
 
 const DevotionalScreen = () => {
   return (
@@ -14,14 +15,9 @@ const DevotionalScreen = () => {
         />
       </View>
 
-      <DevotionalContainer>
-        <TextInput>Devotional Screen</TextInput>
-      </DevotionalContainer>
-
-
-
+      <DevotionalContainer />
       <View style={styles.button}>
-        {/* <BackButton onPress={() => { navigation.navigate('Devotional', { name: Devotional }) }}>Devotional</BackButton> */}
+        <DevotionalSubmitButton>Add to Journal</DevotionalSubmitButton>
       </View>
     </View>
 
