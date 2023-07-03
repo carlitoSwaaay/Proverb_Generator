@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 
 
-const ProverbContainer = () => {
+const ProverbContainer = (props) => {
 
   const [text, setText] = useState('');
   const [height, setHeight] = useState(0);
@@ -19,17 +19,17 @@ const ProverbContainer = () => {
           // {...props}
           onChangeText={(text) => setText(text)}
           onContentSizeChange={(event) => setHeight(event.nativeEvent.contentSize.height)}
-          value={text}
+          // value={text}
           keyboardAvoidingView='enabled'
           multiline={true}
-          placeholder='What are your thoughts about this Proverb?'
+          placeholder='What are your thoughts?'
           autoCorrect={true}
           spellCheck={true}
-          // textAlign='left'
-          // padding={Platform.OS === 'ios' ? 25 : 10}
-          // verticalAlign={Platform.OS === 'ios' ? 'middle' : 'auto'}
-          // height={Platform.OS === 'ios' ? 100 : height}
-          // marginTop={Platform.OS === 'ios' ? 10 : 30}
+          textAlign='left'
+          padding={Platform.OS === 'ios' ? 10 : 10}
+          verticalAlign='top'
+          marginTop={Platform.OS === 'ios' ? 30 : 30}
+          width={Platform.OS === 'android' ? 350 : 330}
 
 
         >
@@ -46,24 +46,25 @@ export default ProverbContainer;
 
 const styles = StyleSheet.create({
   rootContainer: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     // marginLeft: 4,
     // marginRight: 4,
     marginTop: 40,
+    marginBottom: Platform.OS === 'ios' ? 80 : 60,
     opacity: .9,
   },
   textContainer: {
     backgroundColor: '#d6f2be',
-    borderColor: 'black',
+    // borderColor: 'black',
     borderRadius: 15,
-    borderWidth: 1,
-    padding: 10,
+    // borderWidth: 2,
+    padding: 20,
     fontSize: 18,
     overflow: 'hidden',
     fontFamily: 'open-sans-bold',
     textAlign: 'left',
-    wordWrap: 'break-word'
 
 
   },

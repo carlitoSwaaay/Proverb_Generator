@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Pressable } from 'react-native'
 
 
-const NextProverbButton = ({ children, onPress }) => {
+const DevotionalSubmitButton = ({ children, onPress }) => {
 
   return (
     <View style={styles.buttonOuterContainer}>
@@ -20,7 +20,7 @@ const NextProverbButton = ({ children, onPress }) => {
   );
 };
 
-export default NextProverbButton;
+export default DevotionalSubmitButton;
 
 const styles = StyleSheet.create({
   buttonOuterContainer: {
