@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: '#f8f8f8',
     borderRadius: 10,
-    borderWidth: 1,
     borderColor: 'black',
+    opacity: .9,
 
   },
   backgroundContainer: {
@@ -51,9 +51,11 @@ const styles = StyleSheet.create({
     // opacity: .5,
   },
   textContainer: {
+    padding: 30,
+    margin: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 200,
+    marginTop: 300,
 
   },
   backgroundImage: {
