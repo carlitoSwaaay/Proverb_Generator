@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Image, Platform, StyleSheet, View } from 'react-native';
-import ProverbContainer from '../components/ProverbContainer';
+// import ProverbContainer from '../components/ProverbContainer';
 import DevotionalContainer from '../components/DevotionalContainer';
 import DevotionalSubmitButton from '../components/DevotionalSubmitButton';
-import JournalScreen from './JournalScreen';
+// import JournalScreen from './JournalScreen';
 
 
 
-const DevotionalScreen = ({ navigation, Journal }) => {
+const DevotionalScreen = ({ navigation, Journal, props }) => {
 
     const [inputText, setInputText] = useState('');
     const [devotional, setDevotional] = useState([]);

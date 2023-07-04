@@ -1,7 +1,10 @@
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import DevotionalScreen from './DevotionalScreen';
 
-const JournalScreen = () => {
+const JournalScreen = ({ data }) => {
+
+
   return (
     <View style={styles.rootContainer}>
       <View style={styles.backgroundContainer}>
@@ -13,9 +16,12 @@ const JournalScreen = () => {
       </View>
 
       <View style={styles.textContainer}>
-        <FlatList style={styles.container}>
-          Journal Entry 1
-      </FlatList>
+        <FlatList
+          style={styles.container}
+          data={data}
+          renderItem={({ item }) => <Text>{item}</Text>}
+          keyExtractor={(item, index) => index.toString()}
+        />
       </View>
 
     </View>
