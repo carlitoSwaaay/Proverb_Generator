@@ -19,7 +19,12 @@ const DevotionalScreen = ({ navigation, Journal }) => {
         <DevotionalContainer />
       </View>
       <View style={styles.button}>
-        <DevotionalSubmitButton style={styles.button} onPress={navigation.navigate('Journal', { name: Journal })}>Add to Journal</DevotionalSubmitButton>
+        <DevotionalSubmitButton
+          style={styles.button}
+          onPress={() => navigation.navigate('Journal', { name: Journal })}
+        >
+          Add to Journal
+        </DevotionalSubmitButton>
       </View>
     </View>
 
