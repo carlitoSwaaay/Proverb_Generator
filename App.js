@@ -9,6 +9,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ProverbScreen from './screens/ProverbScreen';
 import MainScreen from './screens/MainScreen';
 import DevotionalScreen from './screens/DevotionalScreen';
+import JournalScreen from './screens/JournalScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -66,6 +67,7 @@ export default function App() {
         <Stack.Screen name='Main' component={MainScreen} />
         <Stack.Screen name='Proverbs' component={ProverbScreen} />
         <Stack.Screen name='Devotional' component={DevotionalScreen} />
+        <Stack.Screen name='Journal' component={JournalScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
