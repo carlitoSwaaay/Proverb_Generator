@@ -7,6 +7,8 @@ import JournalScreen from './JournalScreen';
 
 
 const DevotionalHandler = () => {
+  const [inputText, setInputText] = useState('');
+  const [devotional, setDevotional] = useState([]);
 
 };
 
