@@ -5,6 +5,11 @@ import DevotionalContainer from '../components/DevotionalContainer';
 import DevotionalSubmitButton from '../components/DevotionalSubmitButton';
 import JournalScreen from './JournalScreen';
 
+
+const DevotionalHandler = () => {
+
+};
+
 const DevotionalScreen = ({ navigation, Journal }) => {
   return (
     <View style={styles.rootContainer}>
