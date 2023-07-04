@@ -9,16 +9,13 @@ import JournalScreen from './JournalScreen';
 
 const DevotionalScreen = ({ navigation, Journal }) => {
 
-  const DevotionalHandler = () => {
     const [inputText, setInputText] = useState('');
     const [devotional, setDevotional] = useState([]);
 
-    console.log()
 
   const addDevotional = () => {
     setDevotional([...devotional, inputText]);
-    setInputText('');
-  }
+    setInputText('')
   };
 
   return (
@@ -47,6 +44,7 @@ const DevotionalScreen = ({ navigation, Journal }) => {
 
   )
 };
+
 
 export default DevotionalScreen;
 
