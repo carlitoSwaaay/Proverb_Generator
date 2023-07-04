@@ -14,10 +14,11 @@ const DevotionalScreen = () => {
           style={styles.backgroundImage}
         />
       </View>
-
-      <DevotionalContainer />
+      <View style={styles.textContainer}>
+        <DevotionalContainer />
+      </View>
       <View style={styles.button}>
-        <DevotionalSubmitButton>Add to Journal</DevotionalSubmitButton>
+        <DevotionalSubmitButton style={styles.button}>Add to Journal</DevotionalSubmitButton>
       </View>
     </View>
 
@@ -40,8 +41,7 @@ const styles = StyleSheet.create({
   textContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    margin: 20,
-    padding: 20,
+    marginTop: 400,
 
   },
   backgroundContainer: {
@@ -55,6 +55,9 @@ const styles = StyleSheet.create({
   backgroundImage: {
     flex: 1,
     flexDirection: 'column',
+  },
+  button: {
+    marginBottom: 200,
   },
 
 });
