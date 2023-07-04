@@ -1,10 +1,11 @@
-import { Image, StyleSheet, TextInput, View, } from 'react-native'
+import { Image, Platform, StyleSheet, TextInput, View, } from 'react-native'
 import React from 'react'
 import ProverbContainer from '../components/ProverbContainer';
 import DevotionalContainer from '../components/DevotionalContainer';
 import DevotionalSubmitButton from '../components/DevotionalSubmitButton';
+import JournalScreen from './JournalScreen';
 
-const DevotionalScreen = () => {
+const DevotionalScreen = ({ navigation, Journal }) => {
   return (
     <View style={styles.rootContainer}>
       <View style={styles.backgroundContainer}>
@@ -18,7 +19,7 @@ const DevotionalScreen = () => {
         <DevotionalContainer />
       </View>
       <View style={styles.button}>
-        <DevotionalSubmitButton style={styles.button}>Add to Journal</DevotionalSubmitButton>
+        <DevotionalSubmitButton style={styles.button} onPress={navigation.navigate('Journal', { name: Journal })}>Add to Journal</DevotionalSubmitButton>
       </View>
     </View>
 
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
   textContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 400,
+    marginTop: 200,
 
   },
   backgroundContainer: {
@@ -57,7 +58,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   button: {
-    marginBottom: 200,
+    marginBottom: Platform.OS === 'ios' ? 300 : 100,
   },
 
 });
