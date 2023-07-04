@@ -6,18 +6,20 @@ import DevotionalSubmitButton from '../components/DevotionalSubmitButton';
 import JournalScreen from './JournalScreen';
 
 
-const DevotionalHandler = () => {
-  const [inputText, setInputText] = useState('');
-  const [devotional, setDevotional] = useState([]);
+
+const DevotionalScreen = ({ navigation, Journal }) => {
+
+  const DevotionalHandler = () => {
+    const [inputText, setInputText] = useState('');
+    const [devotional, setDevotional] = useState([]);
+
+    console.log(inputText);
 
   const addDevotional = () => {
     setDevotional([...devotional, inputText]);
     setInputText('');
+  }
   };
-
-};
-
-const DevotionalScreen = ({ navigation, Journal }) => {
   return (
     <View style={styles.rootContainer}>
       <View style={styles.backgroundContainer}>
@@ -33,7 +35,7 @@ const DevotionalScreen = ({ navigation, Journal }) => {
       <View style={styles.button}>
         <DevotionalSubmitButton
           style={styles.button}
-          onPress={() => navigation.navigate('Journal', { name: Journal })}
+          onPress={() => [navigation.navigate('Journal', { name: Journal }), { addDevotional }]}
         >
           Add to Journal
         </DevotionalSubmitButton>
