@@ -1,5 +1,5 @@
-import { Image, Platform, StyleSheet, TextInput, View, } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
+import { Image, Platform, StyleSheet, View } from 'react-native';
 import ProverbContainer from '../components/ProverbContainer';
 import DevotionalContainer from '../components/DevotionalContainer';
 import DevotionalSubmitButton from '../components/DevotionalSubmitButton';
@@ -13,13 +13,14 @@ const DevotionalScreen = ({ navigation, Journal }) => {
     const [inputText, setInputText] = useState('');
     const [devotional, setDevotional] = useState([]);
 
-    console.log(inputText);
+    console.log()
 
   const addDevotional = () => {
     setDevotional([...devotional, inputText]);
     setInputText('');
   }
   };
+
   return (
     <View style={styles.rootContainer}>
       <View style={styles.backgroundContainer}>
@@ -35,6 +36,8 @@ const DevotionalScreen = ({ navigation, Journal }) => {
       <View style={styles.button}>
         <DevotionalSubmitButton
           style={styles.button}
+          onChangeText={setInputText}
+          value={inputText}
           onPress={() => [navigation.navigate('Journal', { name: Journal }), { addDevotional }]}
         >
           Add to Journal
