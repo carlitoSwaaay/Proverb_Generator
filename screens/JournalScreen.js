@@ -11,9 +11,10 @@ const JournalScreen = () => {
           style={styles.backgroundImage}
         />
       </View>
-      <View>
+
+      <View style={styles.textContainer}>
         <FlatList style={styles.container}>
-        <Text>Journal Entry 1</Text>
+          Journal Entry 1
       </FlatList>
       </View>
 
@@ -32,10 +33,14 @@ const styles = StyleSheet.create({
     // backgroundColor: '#f8f8f8',
   },
   container: {
-    marginTop: 5,
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-    position: 'absolute',
+
+    paddingVertical: 20,
+    paddingHorizontal: 20,
+    backgroundColor: '#f8f8f8',
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: 'black',
+
   },
   backgroundContainer: {
     position: 'absolute',
@@ -44,6 +49,12 @@ const styles = StyleSheet.create({
     bottom: 0,
     right: 0,
     // opacity: .5,
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 200,
+
   },
   backgroundImage: {
     flex: 1,
