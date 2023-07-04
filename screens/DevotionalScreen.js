@@ -10,6 +10,11 @@ const DevotionalHandler = () => {
   const [inputText, setInputText] = useState('');
   const [devotional, setDevotional] = useState([]);
 
+  const addDevotional = () => {
+    setDevotional([...devotional, inputText]);
+    setInputText('');
+  };
+
 };
 
 const DevotionalScreen = ({ navigation, Journal }) => {
