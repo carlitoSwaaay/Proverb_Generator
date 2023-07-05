@@ -1,12 +1,18 @@
-import { FlatList, Image, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { FlatList, Image, SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import React, { useState } from 'react'
+
+import JournalList from '../components/JournalList'
 // import DevotionalScreen from './DevotionalScreen';
 
 const JournalScreen = () => {
+  const [entries, setEntries] = useState([]);
 
+  const handleEntrySubmit = (entry) => {
+    setEntries((prevEntries) => [...prevEntries, entry])
+  };
 
   return (
-    <View style={styles.rootContainer}>
+    <SafeAreaView style={styles.rootContainer}>
       <View style={styles.backgroundContainer}>
         <Image source=
           {require('../assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
@@ -14,10 +20,12 @@ const JournalScreen = () => {
           style={styles.backgroundImage}
         />
       </View>
-
-    </View>
+      <View style={styles.textContainer}>
+        <JournalList entries={entries} />
+      </View>
+    </SafeAreaView>
   )
-}
+};
 
 export default JournalScreen;
 
@@ -30,14 +38,10 @@ const styles = StyleSheet.create({
     // backgroundColor: '#f8f8f8',
   },
   container: {
-
-    paddingVertical: 20,
-    paddingHorizontal: 20,
-    backgroundColor: '#f8f8f8',
-    borderRadius: 10,
-    borderColor: 'black',
-    opacity: .9,
-
+    marginTop: 5,
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    position: 'absolute',
   },
   backgroundContainer: {
     position: 'absolute',
@@ -48,11 +52,11 @@ const styles = StyleSheet.create({
     // opacity: .5,
   },
   textContainer: {
-    padding: 30,
-    margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 300,
+    flex: 1,
+    opacity: .9,
+    width: '100%',
+    height: '100%',
+    borderRadius: 10,
 
   },
   backgroundImage: {

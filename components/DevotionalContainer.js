@@ -1,20 +1,22 @@
-import { SafeAreaView, ScrollView, StyleSheet, TextInput, Platform } from 'react-native'
 import React, { useState } from 'react'
+import { SafeAreaView, ScrollView, StyleSheet, TextInput, Platform } from 'react-native'
 
 
 
-const ProverbContainer = (props) => {
+const ProverbContainer = ({ onSubmit }) => {
+
+  const [entry, setEntry] = useState('');
 
   const [height, setHeight] = useState(0);
 
-  const [inputText, setInputText] = useState('');
-  const [devotional, setDevotional] = useState([]);
+  const handleTextChange = (text) => {
+    setEntry(text);
+  };
 
-
-  // const addDevotional = () => {
-  //   setDevotional([...devotional, inputText]);
-  //   setInputText('')
-  // };
+  const handleSubmit = () => {
+    onSubmit(entry);
+    setEntry('');
+  };
 
 
   return (
@@ -23,24 +25,22 @@ const ProverbContainer = (props) => {
         <TextInput
           style={[styles.textContainer, { height: Math.max(35, height) }]}
           // {...props}
-          onChangeText={(devotional) => setDevotional(devotional)}
-          onContentSizeChange={(event) => setHeight(event.nativeEvent.contentSize.height)}
-          value={devotional}
-          keyboardAvoidingView='enabled'
-          multiline={true}
-          placeholder='What are your thoughts?'
-          autoCorrect={true}
-          spellCheck={true}
           textAlign='left'
-          padding={Platform.OS === 'ios' ? 10 : 10}
+          multiline={true}
+          spellCheck={true}
           verticalAlign='top'
+          value={entry}
+          autoCorrect={true}
+          keyboardAvoidingView='enabled'
+          placeholder='What are your thoughts?'
+          onChangeText={handleTextChange}
+          onContentSizeChange={(event) => setHeight(event.nativeEvent.contentSize.height)}
+          padding={Platform.OS === 'ios' ? 10 : 10}
           marginTop={Platform.OS === 'ios' ? 30 : 30}
           width={Platform.OS === 'android' ? 350 : 330}
 
 
-        >
-        </TextInput>
-
+        />
       </ScrollView>
     </SafeAreaView>
   )
@@ -71,8 +71,5 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     fontFamily: 'open-sans-bold',
     textAlign: 'left',
-
-
   },
-
 });
