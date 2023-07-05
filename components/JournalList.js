@@ -1,0 +1,17 @@
+import React from 'react'
+import { Text, View, StyleSheet, FlatList } from 'react-native';
+
+const JournalList = () => {
+
+  <View>
+    <FlatList />
+  </View>
+};
+
+export default JournalList;
+
+const styles = StyleSheet.create({
+  rootContainer: {
+    flex: 1,
+  },
+});
