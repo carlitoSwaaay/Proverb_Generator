@@ -5,21 +5,27 @@ import React, { useState } from 'react'
 
 const ProverbContainer = (props) => {
 
-  const [text, setText] = useState('');
   const [height, setHeight] = useState(0);
+
+  const [inputText, setInputText] = useState('');
+  const [devotional, setDevotional] = useState([]);
+
+
+  // const addDevotional = () => {
+  //   setDevotional([...devotional, inputText]);
+  //   setInputText('')
+  // };
 
 
   return (
-
-
     <SafeAreaView style={styles.rootContainer}>
       <ScrollView keyboardShouldPersistTaps='never'>
         <TextInput
           style={[styles.textContainer, { height: Math.max(35, height) }]}
           // {...props}
-          onChangeText={(text) => setText(text)}
+          onChangeText={(devotional) => setDevotional(devotional)}
           onContentSizeChange={(event) => setHeight(event.nativeEvent.contentSize.height)}
-          // value={text}
+          value={devotional}
           keyboardAvoidingView='enabled'
           multiline={true}
           placeholder='What are your thoughts?'
