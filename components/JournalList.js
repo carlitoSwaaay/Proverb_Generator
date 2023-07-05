@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, FlatList } from 'react-native';
 
 const JournalList = () => {
 
-  <View>
+  <View style={styles.rootContainer}>
     <FlatList />
   </View>
 };
