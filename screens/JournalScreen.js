@@ -1,8 +1,8 @@
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import DevotionalScreen from './DevotionalScreen';
+// import DevotionalScreen from './DevotionalScreen';
 
-const JournalScreen = ({ data }) => {
+const JournalScreen = () => {
 
 
   return (
@@ -12,15 +12,6 @@ const JournalScreen = ({ data }) => {
           {require('../assets/2bc93f0f-7867-44d4-bafa-d59f5c51d075.jpeg')}
           resizeMode='stretch'
           style={styles.backgroundImage}
-        />
-      </View>
-
-      <View style={styles.textContainer}>
-        <FlatList
-          style={styles.container}
-          data={data}
-          renderItem={({ item }) => <Text>{item}</Text>}
-          keyExtractor={(item, index) => index.toString()}
         />
       </View>
 
