@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, StyleSheet, FlatList } from 'react-native';
+import { Text, View, StyleSheet, FlatList, Platform } from 'react-native';
 
 const JournalList = ({ entries }) => {
   const renderEntry = ({ item }) => {
@@ -25,11 +25,14 @@ export default JournalList;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 10,
-    backgroundColor: '#f8f8f8',
+    backgroundColor: 'white',
+    marginTop: Platform.OS === 'ios' ? 30 : 40,
+    marginBottom: Platform.OS === 'ios' ? 30 : 20,
+    marginLeft: Platform.OS === 'ios' ? 20 : 2,
+    marginRight: Platform.OS === 'ios' ? 20 : 2,
   },
   listContent: {
-    paddingTop: 10,
+    padding: 100,
   },
   entry: {
     marginBottom: 10,
