@@ -1,12 +1,8 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { configureStore } from '@reduxjs/toolkit';
+import navReducer from './NavSlice';
 
-const Store = () => {
-  return (
-    <View>
-      <Text>Store</Text>
-    </View>
-  )
-}
-
-export default Store;
+export const store = configureStore({
+  reducer: {
+    nav: navReducer,
+  },
+});
